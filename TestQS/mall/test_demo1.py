@@ -1,4 +1,3 @@
-
 import allure
 import pytest
 from Common import Request, Assert, read_excel,Tools
@@ -8,22 +7,16 @@ import pymysql
 request = Request.Request()
 assertions = Assert.Assertions()
 
-# url = 'http://192.168.60.132:1811/'
-# excel_list = read_excel.read_excel_list('./document/注册.xlsx')
-# ids_list = []
-# for i in range(len(excel_list)):
-#     # 删除excel_list中每个小list的最后一个元素,并赋值给ids_pop
-#     ids_pop = excel_list[i].pop()
-#     # 将ids_pop添加到 ids_list 里面
-#     ids_list.append(ids_pop)
+
 url = 'http://zhongtai.20783378.com'
 head = {}
 id = 0
-
 code = {}
 
 @allure.feature("获取登录用户信息")
 class Test_info():
+
+    @allure.severity("critical")
     @allure.story("登录接口")
     def test_login(self):
         login_resp = request.post_request(url=url + '/api/user/public/pwd/login',
@@ -43,6 +36,7 @@ class Test_info():
         head = {'console-token': data_json['consoleToken']}
         # print(head)
 
+    @allure.severity("critical")
     @allure.story("查询排班部门")
     def test_Schedule(self):
         Schedule_resp = request.post_request(url=url + "/api/user/console/sys/allowSchedule/dept",
@@ -58,6 +52,7 @@ class Test_info():
 
         print(code)
 
+    @allure.severity("critical")
     @allure.story("阿里巴巴巡检部门排班")
     def test_ali(self):
         ali_resp = request.post_request(url = url + '/api/schedule/console/scheduling/organization/period/page',
@@ -77,6 +72,8 @@ class Test_info():
         code = {"ad" : res_code}
 
         # print(code)
+
+    @allure.severity("critical")
     @allure.story("连接数据库")
     def test_sjk(self):
         db = pymysql.Connect("192.168.1.104", "root", "NMvf75#_$%c%BcD$F8l$", "zhhome_db")
