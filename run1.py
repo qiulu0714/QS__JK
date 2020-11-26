@@ -19,11 +19,11 @@ if __name__ == '__main__':
 
     shell = Shell.Shell()
 
-    xml_report_path = './Report/xml/'
-    html_report_path = './Report/html/'
+    xml_report_path = './Report1/xml/'
+    html_report_path = './Report1/html/'
 
 
-    pytest.main(['-s', '-q', '--alluredir',xml_report_path,'./TestQS/mall'])
+    pytest.main(['-s', '-q', '--alluredir',xml_report_path,'./TestQS/configure_device'])
 
     cmd = "allure generate %s -o %s --clean"%(xml_report_path,html_report_path)
 
