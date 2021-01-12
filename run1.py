@@ -27,6 +27,7 @@ if __name__ == '__main__':
 
     cmd = "allure generate %s -o %s --clean"%(xml_report_path,html_report_path)
 
+
     try:
         shell.invoke(cmd)
     except Exception:
