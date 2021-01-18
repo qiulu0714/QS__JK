@@ -20,6 +20,8 @@ title = '宜浩佳园3号机'
 sequence = '13124'
 batchNumber = '2020-11'
 address = '竹柏路111弄'
+name = '高清摄像头'
+code = 'GQSXT__001'
 
 @allure.feature("配置设备")
 class Test_info:
@@ -48,23 +50,38 @@ class Test_info:
     @allure.severity("critical")
     @allure.story("添加设备")
     def test_add_device(self):
-        add_device_resp = request.post_request(url=url1 + '/api/device/console/device/info/add',
-                                               json={"id": "", "sequence": sequence, "partIdsTemp": [],
-                                                     "partIds": ["54", "63", "135", "45", "32"],"deviceRuleTemplateId": "306935424738136064",
-                                                     "enteId": 32,"deptId": 103,"address": address, "appVersion": "应用版本",
-                                                     "batchCode": "2020-11","provinceId": 9, "cityId": 104,"countyId": 1134,
-                                                     "townId": 13798,"centerId": "","communityId": 3155375,"deviceVersion": "系统版本",
-                                                     "emergencyContactUserId": 369,"gasNumber": "煤气卡编号","lat": 39.910925, "lon": 116.413384,
-                                                     "macCode": maccode,"remark": "", "romVersion": "硬件版本","title": title, "phone": "18116312806",
-                                                     "time": "2021-01-01 00:00:00","versionId": "313539145957904384", "provinceName": "上海市",
-                                                     "cityName": "市辖区","countyName": "浦东新区", "townName": "南汇新城镇","communityName": "宜浩佳园一居委会",
-                                                     "addressCode": "31011514500002"}, headers=head)
+        # 获取种类id
 
-        assertions.assert_code(add_device_resp.status_code,200)
 
-        add_device_resp_json = add_device_resp.json()
 
-        assertions.assert_in_text(add_device_resp_json['resMsg'],'success')
+
+        """ 新增类别 """
+        add_class_resp = request.post_request(url=url1 + '/api/device/console/device/part/class/add',
+                                               json={"brandName": "千声用品", "categoryId": 3, "code": code,
+                                                     "manufacturerName": "千声生厂商","modalNumber": "XH__001",
+                                                     "name":name, "providerName": "千声供应商","unit": "个",
+                                                     "specification": "{}",
+                                                     "img": "https://v3.cdn.qeesen.com/file/ea39476b088b4507ad4acb70983eaf9f.png"},
+                                               headers=head)
+
+        assertions.assert_code(add_class_resp.status_code,200)
+
+        add_class_resp_json = add_class_resp.json()
+
+        assertions.assert_in_text(add_class_resp_json ['resMsg'],'success')
+
+        """新增编码"""
+        add_part_resp = request.post_request(url=url1 + '/api/device/console/device/part/add',
+                                               json={"classId":"3","code":code + "__001","count":"1"},
+                                               headers=head)
+
+        assertions.assert_code(add_part_resp.status_code,200)
+
+        add_part_resp_json = add_part_resp.json()
+
+        assertions.assert_in_text(add_part_resp_json['resMsg'],'success')
+
+
 
         # 将携带的参数传给params
         a = {"page" : 1 , "size" : 10 , "fuzzy" : title}
