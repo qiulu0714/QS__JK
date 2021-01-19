@@ -236,23 +236,23 @@ class Test_info:
     #
     #                 assertions.assert_in_text(add_VendingMachineTemplate_resp_json['resMsg'],"success")
 
-    # @allure.severity('critical')
-    # @allure.story('应急物资设备配置')
-    # def test_add_emergency_supplies(self):
-    #     # 获取classId
-    #     db = pymysql.Connect("192.168.1.104", "root", "NMvf75#_$%c%BcD$F8l$", "zhhome_db")
-    #     cursor = db.cursor()
-    #     # 根据shop_emergency_supplies_class表中title字段查询classid
-    #     cursor_execute = cursor.execute("SELECT * FROM `shop_vending_machine_class` WHERE title = '应急物资型号001'")
-    #     bb = cursor.fetchone()
-    #
-    #     classid = bb[0]
-    #     # 添加应急物质设备
-    #     add_emergency_supplies_resp = request.post_request(url= url2 + '/api/machineManage/console/shop/vending/machine/addShopVendingMachine',
-    #                          json= {"region":13798,"sequence":sequence,"address":address,"title":title,
-    #                                 "macAddress":maccode,"deviceId":deviceid,"saleType":2,"classId":classid,
-    #                                 "batchNumber":batchNumber,"runStatus":1,"remarks":"","deviceTitle":title},
-    #                          headers= head)
+    @allure.severity('critical')
+    @allure.story('应急物资设备配置')
+    def test_add_emergency_supplies(self):
+        # 获取classId
+        db = pymysql.Connect("192.168.1.104", "root", "NMvf75#_$%c%BcD$F8l$", "zhhome_db")
+        cursor = db.cursor()
+        # 根据shop_emergency_supplies_class表中title字段查询classid
+        cursor_execute = cursor.execute("SELECT * FROM `shop_vending_machine_class` WHERE title = '应急物资型号001'")
+        bb = cursor.fetchone()
+
+        classid = bb[0]
+        # 添加应急物质设备
+        add_emergency_supplies_resp = request.post_request(url= url2 + '/api/machineManage/console/shop/vending/machine/addShopVendingMachine',
+                             json= {"region":13798,"sequence":sequence,"address":address,"title":title,
+                                    "macAddress":maccode,"deviceId":deviceid,"saleType":2,"classId":classid,
+                                    "batchNumber":batchNumber,"runStatus":1,"remarks":"","deviceTitle":title},
+                             headers= head)
     #
     #     assertions.assert_code(add_emergency_supplies_resp.status_code,200)
     #
