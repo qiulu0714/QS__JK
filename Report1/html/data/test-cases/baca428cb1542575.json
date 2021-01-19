@@ -1,0 +1,120 @@
+{
+  "uid" : "baca428cb1542575",
+  "name" : "test_login",
+  "fullName" : "TestQS.configure_device.test_configure_device.Test_info#test_login",
+  "historyId" : "78bbf02612b972b2c1a3f2bef11e7e69",
+  "time" : {
+    "start" : 1610441890983,
+    "stop" : 1610441890997,
+    "duration" : 14
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "bfa3e2199fb07831",
+      "name" : "请求",
+      "source" : "bfa3e2199fb07831.txt",
+      "type" : "text/plain",
+      "size" : 290
+    }, {
+      "uid" : "a7e4fa460b13f4b3",
+      "name" : "响应",
+      "source" : "a7e4fa460b13f4b3.txt",
+      "type" : "text/plain",
+      "size" : 907
+    }, {
+      "uid" : "702a86056d14c2d2",
+      "name" : "log",
+      "source" : "702a86056d14c2d2.txt",
+      "type" : "text/plain",
+      "size" : 1636
+    }, {
+      "uid" : "fe79267e9fd87724",
+      "name" : "stdout",
+      "source" : "fe79267e9fd87724.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "78a5b989a189504b",
+      "name" : "stderr",
+      "source" : "78a5b989a189504b.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "用户登录"
+  }, {
+    "name" : "feature",
+    "value" : "配置设备"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestQS.configure_device"
+  }, {
+    "name" : "suite",
+    "value" : "test_configure_device"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_info"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-43Q8N5G"
+  }, {
+    "name" : "thread",
+    "value" : "10820-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestQS.configure_device.test_configure_device"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "5463fffdfc196825",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610441305592,
+        "stop" : 1610441305669,
+        "duration" : 77
+      }
+    }, {
+      "uid" : "2d65db4d469ef1d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610417752434,
+        "stop" : 1610417752527,
+        "duration" : 93
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "baca428cb1542575.json",
+  "parameterValues" : [ ]
+}

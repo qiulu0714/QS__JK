@@ -1,0 +1,9 @@
+---------------响应----------------
+200
+Server: nginx/1.16.1
+Date: Thu, 26 Nov 2020 08:25:07 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+
+{"resCode":"000000","resMsg":"success","data":{"consoleToken":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiLmmbrmsYflrrblm60t54mp5Lia566h55CGIiwiaWQiOiIyMiIsImV4cCI6MTYwNjQyNTkwNywiaWF0IjoxNjA2Mzc5MTA3LCJ1c2VyIjoie1wiaWRcIjoyMixcInVzZXJuYW1lXCI6XCJhZG1pblwiLFwicmVhbG5hbWVcIjpcIui2hee6p-euoeeQhuWRmFwiLFwic2V4XCI6MSxcInBob25lXCI6XCIxMzgwMDAxMDAwMVwiLFwid2VDaGF0XCI6XCJ3eFwiLFwic3RhdHVzXCI6MSxcImltZ1VybFwiOlwiaHR0cHM6Ly92My5jZG4ucWVlc2VuLmNvbS9maWxlLzY4NzM0YTMyOGEzMDRkZjA5MWY2ZGFlMDZkM2VhZmIzLmpwZ1wiLFwiZW50ZUlkXCI6MzIsXCJkZXB0SWRcIjo5Nn0ifQ.AuFApZ5mKvlNplNO40B3KRoZAnoMWRekh0jU_DvYSwQ","userName":"admin","realName":"超级管理员","id":22}}

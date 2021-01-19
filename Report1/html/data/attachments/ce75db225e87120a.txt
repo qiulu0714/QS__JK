@@ -1,0 +1,9 @@
+---------------响应----------------
+200
+Server: nginx/1.16.1
+Date: Thu, 26 Nov 2020 08:13:34 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+
+{"resCode":"000000","resMsg":"success","data":{"total":2,"list":[{"id":"295410259990679552","title":"新模板1","classId":"295409755650789376","saleType":1,"machineCount":5,"picUrl":"https://v3.cdn.qeesen.com/file/267e00a65a7847be80ce260a782f67f4.png","createTime":"2020-10-29 15:11:27","updateTime":"2020-10-29 15:11:27","deleted":0,"status":0,"shopVendingMachineClass":{"id":"295409755650789376","title":"新类型1","categoryId":1,"saleType":1,"xcount":11,"ycount":1,"zcount":5}},{"id":"295412645756932096","title":"新模板2","classId":"295409877709230080","saleType":1,"machineCount":4,"picUrl":"https://v3.cdn.qeesen.com/file/c241acd884214fb8a25357205ae38a10.png","createTime":"2020-10-29 15:20:56","updateTime":"2020-10-29 15:20:56","deleted":0,"status":0,"shopVendingMachineClass":{"id":"295409877709230080","title":"新类型2","categoryId":2,"saleType":1,"xcount":17,"ycount":1,"zcount":1}}],"pageNum":1,"pageSize":20,"size":2,"startRow":1,"endRow":2,"pages":1,"prePage":0,"nextPage":0,"isFirstPage":true,"isLastPage":true,"hasPreviousPage":false,"hasNextPage":false,"navigatePages":8,"navigatepageNums":[1],"navigateFirstPage":1,"navigateLastPage":1}}

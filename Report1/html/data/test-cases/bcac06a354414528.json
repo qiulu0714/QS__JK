@@ -1,0 +1,64 @@
+{
+  "uid" : "bcac06a354414528",
+  "name" : "test_add_locker",
+  "fullName" : "TestQS.configure_device.test_configure_device.Test_info#test_add_locker",
+  "historyId" : "64009b93e76537fb3a3a68bff78eb81a",
+  "time" : {
+    "start" : 1610092462794,
+    "stop" : 1610092462809,
+    "duration" : 15
+  },
+  "status" : "broken",
+  "statusMessage" : "TypeError: 'NoneType' object is not subscriptable",
+  "statusTrace" : "self = <TestQS.configure_device.test_configure_device.Test_info object at 0x04113110>\n\n    @allure.severity('critical')\n    @allure.story('储物柜设备配置')\n    def test_add_locker(self):\n        # 获取classId\n        db = pymysql.Connect(\"192.168.1.104\", \"root\", \"NMvf75#_$%c%BcD$F8l$\", \"zhhome_db\")\n        cursor = db.cursor()\n        # 根据shop_vending_machine_class表中title字段查询classid\n        cursor_execute = cursor.execute(\"SELECT * FROM `shop_vending_machine_class` WHERE title = '测试型号'\")\n        bb = cursor.fetchone()\n    \n>       classid = bb[0]\nE       TypeError: 'NoneType' object is not subscriptable\n\nTestQS\\configure_device\\test_configure_device.py:314: TypeError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "储物柜设备配置"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "配置设备"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestQS.configure_device"
+  }, {
+    "name" : "suite",
+    "value" : "test_configure_device"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_info"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-43Q8N5G"
+  }, {
+    "name" : "thread",
+    "value" : "1684-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestQS.configure_device.test_configure_device"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bcac06a354414528.json",
+  "parameterValues" : [ ]
+}

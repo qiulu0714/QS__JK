@@ -1,0 +1,126 @@
+{
+  "uid" : "6aa4521062db296",
+  "name" : "test_add_locker",
+  "fullName" : "TestQS.configure_device.test_configure_device.Test_info#test_add_locker",
+  "historyId" : "64009b93e76537fb3a3a68bff78eb81a",
+  "time" : {
+    "start" : 1608269109618,
+    "stop" : 1608269109872,
+    "duration" : 254
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b10d12cdf2d50e5b",
+      "name" : "请求",
+      "source" : "b10d12cdf2d50e5b.txt",
+      "type" : "text/plain",
+      "size" : 1186
+    }, {
+      "uid" : "7ecd5ba2f474ac19",
+      "name" : "响应",
+      "source" : "7ecd5ba2f474ac19.txt",
+      "type" : "text/plain",
+      "size" : 234
+    }, {
+      "uid" : "db62ed3b1de9e3d0",
+      "name" : "请求",
+      "source" : "db62ed3b1de9e3d0.txt",
+      "type" : "text/plain",
+      "size" : 927
+    }, {
+      "uid" : "4748da26b14e2b71",
+      "name" : "响应",
+      "source" : "4748da26b14e2b71.txt",
+      "type" : "text/plain",
+      "size" : 1848
+    }, {
+      "uid" : "72a2809b80207ec0",
+      "name" : "请求",
+      "source" : "72a2809b80207ec0.txt",
+      "type" : "text/plain",
+      "size" : 914
+    }, {
+      "uid" : "33411d97a3a6bf81",
+      "name" : "响应",
+      "source" : "33411d97a3a6bf81.txt",
+      "type" : "text/plain",
+      "size" : 963
+    }, {
+      "uid" : "4e7741e6e475964b",
+      "name" : "请求",
+      "source" : "4e7741e6e475964b.txt",
+      "type" : "text/plain",
+      "size" : 922
+    }, {
+      "uid" : "24292799a59e8eb2",
+      "name" : "响应",
+      "source" : "24292799a59e8eb2.txt",
+      "type" : "text/plain",
+      "size" : 234
+    }, {
+      "uid" : "6fd8069c89e0f218",
+      "name" : "log",
+      "source" : "6fd8069c89e0f218.txt",
+      "type" : "text/plain",
+      "size" : 9180
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 9,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "配置设备"
+  }, {
+    "name" : "story",
+    "value" : "储物柜设备配置"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestQS.configure_device"
+  }, {
+    "name" : "suite",
+    "value" : "test_configure_device"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_info"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-43Q8N5G"
+  }, {
+    "name" : "thread",
+    "value" : "11864-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestQS.configure_device.test_configure_device"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6aa4521062db296.json",
+  "parameterValues" : [ ]
+}

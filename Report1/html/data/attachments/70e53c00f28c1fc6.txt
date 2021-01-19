@@ -1,0 +1,9 @@
+---------------响应----------------
+200
+Server: nginx/1.16.1
+Date: Tue, 12 Jan 2021 08:48:19 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+
+{"resCode":"000000","resMsg":"success","data":{"total":1,"list":[{"id":"180460257988841472","title":"应急物资模板001","classId":"180460117509017600","saleType":2,"machineCount":15,"picUrl":"http://zhhome.oss-cn-shanghai.aliyuncs.com/file/f56299c562e843c1bee3f67837d234b6.png","createTime":"2019-12-17 10:21:11","updateTime":"2019-12-17 10:36:42","deleted":0,"status":0,"shopVendingMachineClass":{"id":"180460117509017600","title":"应急物资型号001","categoryId":1,"saleType":2,"xcount":1,"ycount":2,"zcount":3}}],"pageNum":1,"pageSize":20,"size":1,"startRow":1,"endRow":1,"pages":1,"prePage":0,"nextPage":0,"isFirstPage":true,"isLastPage":true,"hasPreviousPage":false,"hasNextPage":false,"navigatePages":8,"navigatepageNums":[1],"navigateFirstPage":1,"navigateLastPage":1}}

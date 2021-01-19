@@ -1,0 +1,90 @@
+{
+  "uid" : "c754ef5fc49327a5",
+  "name" : "test_add_template",
+  "fullName" : "TestQS.configure_device.test_configure_device.Test_info#test_add_template",
+  "historyId" : "e2c4e2800de73014867f0101aaa701c0",
+  "time" : {
+    "start" : 1606379110673,
+    "stop" : 1606379110711,
+    "duration" : 38
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "99584dff33eb1940",
+      "name" : "请求",
+      "source" : "99584dff33eb1940.txt",
+      "type" : "text/plain",
+      "size" : 947
+    }, {
+      "uid" : "95278c29c1f4b90",
+      "name" : "响应",
+      "source" : "95278c29c1f4b90.txt",
+      "type" : "text/plain",
+      "size" : 234
+    }, {
+      "uid" : "e7c6a3bd07738525",
+      "name" : "log",
+      "source" : "e7c6a3bd07738525.txt",
+      "type" : "text/plain",
+      "size" : 1645
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "配置设备功能模板"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "获取登录用户信息"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestQS.configure_device"
+  }, {
+    "name" : "suite",
+    "value" : "test_configure_device"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_info"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-43Q8N5G"
+  }, {
+    "name" : "thread",
+    "value" : "8172-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestQS.configure_device.test_configure_device"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c754ef5fc49327a5.json",
+  "parameterValues" : [ ]
+}

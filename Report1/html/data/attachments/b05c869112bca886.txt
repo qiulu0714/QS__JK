@@ -1,0 +1,44 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:230 Starting new HTTP connection (1): guanjia.20783378.com:80
+DEBUG    urllib3.connectionpool:connectionpool.py:442 http://guanjia.20783378.com:80 "POST /api/device/console/device/info/add HTTP/1.1" 200 None
+INFO     root:Log.py:65 [INFO 2020-11-26 16:58:56]----请求用时: 46.054 秒数
+INFO     root:Log.py:65 [INFO 2020-11-26 16:58:56]---------------请求-----------------
+http://guanjia.20783378.com/api/device/console/device/info/add
+User-Agent: python-requests/2.24.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+console-token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiLmmbrmsYflrrblm60t54mp5Lia566h55CGIiwiaWQiOiIyMiIsImV4cCI6MTYwNjQyNzkzMiwiaWF0IjoxNjA2MzgxMTMyLCJ1c2VyIjoie1wiaWRcIjoyMixcInVzZXJuYW1lXCI6XCJhZG1pblwiLFwicmVhbG5hbWVcIjpcIui2hee6p-euoeeQhuWRmFwiLFwic2V4XCI6MSxcInBob25lXCI6XCIxMzgwMDAxMDAwMVwiLFwid2VDaGF0XCI6XCJ3eFwiLFwic3RhdHVzXCI6MSxcImltZ1VybFwiOlwiaHR0cHM6Ly92My5jZG4ucWVlc2VuLmNvbS9maWxlLzY4NzM0YTMyOGEzMDRkZjA5MWY2ZGFlMDZkM2VhZmIzLmpwZ1wiLFwiZW50ZUlkXCI6MzIsXCJkZXB0SWRcIjo5Nn0ifQ.wKLQvwrxbZgQOZzVrjV6LYYLODX3ksl4sp5667RgB94
+Content-Length: 582
+Content-Type: application/json
+
+b'{"enteId": 32, "deptId": 98, "address": "\\u6c88\\u675c\\u516c\\u8def1000\\u5f04", "appVersion": "3.0", "batchCode": "2020-11", "provinceId": 9, "cityId": 104, "countyId": 1134, "townId": 13787, "centerId": 1000022, "communityId": 3000007, "deviceVersion": "1.0", "emergencyContactUserId": 351, "gasNumber": "123456", "lat": 39.910925, "lon": 116.413384, "macCode": "212", "netType": "1,2,3", "remark": "", "romVersion": "1", "title": "\\u5343\\u58f0\\u673a\\u5668201", "phone": "17323926305", "time": "2020-11-23 00:00:00", "villageName": "\\u4e2d\\u91d1\\u6d77\\u68e0\\u6e7e\\u5c45\\u59d4\\u4f1a"}'
+INFO     root:Log.py:65 [INFO 2020-11-26 16:58:56]---------------响应----------------
+200
+Server: nginx/1.16.1
+Date: Thu, 26 Nov 2020 08:58:53 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+
+{"resCode":"000000","resMsg":"success"}
+DEBUG    urllib3.connectionpool:connectionpool.py:230 Starting new HTTP connection (1): guanjia.20783378.com:80
+DEBUG    urllib3.connectionpool:connectionpool.py:442 http://guanjia.20783378.com:80 "GET /api/device/console/device/info/query/CombinationQuery?page=1&size=10&fuzzy=%E5%8D%83%E5%A3%B0%E6%9C%BA%E5%99%A8201 HTTP/1.1" 200 None
+INFO     root:Log.py:65 [INFO 2020-11-26 16:58:56]----请求用时: 33.176 秒数
+INFO     root:Log.py:65 [INFO 2020-11-26 16:58:56]---------------请求-----------------
+http://guanjia.20783378.com/api/device/console/device/info/query/CombinationQuery?page=1&size=10&fuzzy=%E5%8D%83%E5%A3%B0%E6%9C%BA%E5%99%A8201
+User-Agent: python-requests/2.24.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+console-token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiLmmbrmsYflrrblm60t54mp5Lia566h55CGIiwiaWQiOiIyMiIsImV4cCI6MTYwNjQyNzkzMiwiaWF0IjoxNjA2MzgxMTMyLCJ1c2VyIjoie1wiaWRcIjoyMixcInVzZXJuYW1lXCI6XCJhZG1pblwiLFwicmVhbG5hbWVcIjpcIui2hee6p-euoeeQhuWRmFwiLFwic2V4XCI6MSxcInBob25lXCI6XCIxMzgwMDAxMDAwMVwiLFwid2VDaGF0XCI6XCJ3eFwiLFwic3RhdHVzXCI6MSxcImltZ1VybFwiOlwiaHR0cHM6Ly92My5jZG4ucWVlc2VuLmNvbS9maWxlLzY4NzM0YTMyOGEzMDRkZjA5MWY2ZGFlMDZkM2VhZmIzLmpwZ1wiLFwiZW50ZUlkXCI6MzIsXCJkZXB0SWRcIjo5Nn0ifQ.wKLQvwrxbZgQOZzVrjV6LYYLODX3ksl4sp5667RgB94
+
+None
+INFO     root:Log.py:65 [INFO 2020-11-26 16:58:56]---------------响应----------------
+200
+Server: nginx/1.16.1
+Date: Thu, 26 Nov 2020 08:58:53 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+
+{"resCode":"000000","resMsg":"success","data":{"total":1,"list":[{"id":1409,"title":"千声机器201","address":"沈杜公路1000弄","macCode":"212","appVersion":"3.0","phone":"17323926305","realname":"邱露","provinceId":9,"cityId":104,"countyId":1134,"townId":13787,"centerId":1000022,"communityId":3000007}],"pageNum":1,"pageSize":10,"size":1,"startRow":1,"endRow":1,"pages":1,"prePage":0,"nextPage":0,"isFirstPage":true,"isLastPage":true,"hasPreviousPage":false,"hasNextPage":false,"navigatePages":8,"navigatepageNums":[1],"navigateFirstPage":1,"navigateLastPage":1}}

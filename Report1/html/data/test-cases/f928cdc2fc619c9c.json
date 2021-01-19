@@ -1,0 +1,90 @@
+{
+  "uid" : "f928cdc2fc619c9c",
+  "name" : "test_add_template",
+  "fullName" : "TestQS.configure_device.test_configure_device.Test_info#test_add_template",
+  "historyId" : "e2c4e2800de73014867f0101aaa701c0",
+  "time" : {
+    "start" : 1606378417985,
+    "stop" : 1606378418022,
+    "duration" : 37
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e3c9d041fdb552a7",
+      "name" : "请求",
+      "source" : "e3c9d041fdb552a7.txt",
+      "type" : "text/plain",
+      "size" : 950
+    }, {
+      "uid" : "9ec5d9b6aa71ca46",
+      "name" : "响应",
+      "source" : "9ec5d9b6aa71ca46.txt",
+      "type" : "text/plain",
+      "size" : 234
+    }, {
+      "uid" : "cbdd8dd12a937329",
+      "name" : "log",
+      "source" : "cbdd8dd12a937329.txt",
+      "type" : "text/plain",
+      "size" : 1649
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "获取登录用户信息"
+  }, {
+    "name" : "story",
+    "value" : "配置设备功能模板"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestQS.configure_device"
+  }, {
+    "name" : "suite",
+    "value" : "test_configure_device"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_info"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-43Q8N5G"
+  }, {
+    "name" : "thread",
+    "value" : "8636-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestQS.configure_device.test_configure_device"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f928cdc2fc619c9c.json",
+  "parameterValues" : [ ]
+}

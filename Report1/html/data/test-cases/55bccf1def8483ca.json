@@ -1,0 +1,94 @@
+{
+  "uid" : "55bccf1def8483ca",
+  "name" : "test_add_device",
+  "fullName" : "TestQS.configure_device.test_configure_device.Test_info#test_add_device",
+  "historyId" : "0a9b8070644b43cd81ed13ff48dd0e8c",
+  "time" : {
+    "start" : 1610092462466,
+    "stop" : 1610092462500,
+    "duration" : 34
+  },
+  "status" : "broken",
+  "statusMessage" : "KeyError: 'list'",
+  "statusTrace" : "self = <TestQS.configure_device.test_configure_device.Test_info object at 0x046E4C30>\n\n    @allure.severity(\"critical\")\n    @allure.story(\"添加设备\")\n    def test_add_device(self):\n    #     add_device_resp = request.post_request(url=url1 + '/api/device/console/device/info/add',\n    #                                       json ={\"id\":\"\",\"sequence\":sequence,\"partIdsTemp\":[],\"partIds\":[\"54\",\"63\",\"135\",\"45\",\"32\"],\n    #                                              \"deviceRuleTemplateId\":\"306935424738136064\",\"enteId\":32,\"deptId\":103,\n    #                                              \"address\":address,\"appVersion\":\"应用版本\",\"batchCode\":\"2020-11\",\"provinceId\":9,\"cityId\":104,\n    #                                              \"countyId\":1134,\"townId\":13798,\"centerId\":\"\",\"communityId\":3155375,\n    #                                              \"deviceVersion\":\"系统版本\",\"emergencyContactUserId\":369,\"gasNumber\":\"煤气卡编号\",\n    #                                              \"lat\":39.910925,\"lon\":116.413384,\"macCode\":maccode,\"remark\":\"\",\"romVersion\":\"硬件版本\",\n    #                                              \"title\":title,\"phone\":\"18116312806\",\"time\":\"2021-01-01 00:00:00\",\n    #                                              \"versionId\":\"313539145957904384\",\"provinceName\":\"上海市\",\"cityName\":\"市辖区\",\n    #                                              \"countyName\":\"浦东新区\",\"townName\":\"南汇新城镇\",\"communityName\":\"宜浩佳园一居委会\",\n    #                                              \"addressCode\":\"31011514500002\"},headers=head)\n    #\n    #     assertions.assert_code(add_device_resp.status_code,200)\n    #\n    #     add_device_resp_json = add_device_resp.json()\n    #\n    #     assertions.assert_in_text(add_device_resp_json['resMsg'],'success')\n    #\n        # 将携带的参数传给params\n        a = {\"page\" : 1 , \"size\" : 10 , \"fuzzy\" : title}\n    \n        query_device_info_resp = request.get_request(url=url1 +\"/api/device/console/device/info/query/CombinationQuery\",\n                                                    params= a, headers=head)\n        # 通过状态码进行判断\n        assertions.assert_code(query_device_info_resp.status_code,200)\n    \n        # 提取响应正文\n        query_device_info_resp_json = query_device_info_resp.json()\n    \n        # 通过响应正文进行对比判断\n        assertions.assert_in_text(query_device_info_resp_json['resMsg'],'success')\n    \n        # 获取josn中data\n        query_device_info_resp_json_data = query_device_info_resp_json['data']\n    \n        # 获取data中的list\n>       query_device_info_resp_json_data_list = query_device_info_resp_json_data['list']\nE       KeyError: 'list'\n\nTestQS\\configure_device\\test_configure_device.py:88: KeyError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "KeyError: 'list'",
+    "statusTrace" : "self = <TestQS.configure_device.test_configure_device.Test_info object at 0x046E4C30>\n\n    @allure.severity(\"critical\")\n    @allure.story(\"添加设备\")\n    def test_add_device(self):\n    #     add_device_resp = request.post_request(url=url1 + '/api/device/console/device/info/add',\n    #                                       json ={\"id\":\"\",\"sequence\":sequence,\"partIdsTemp\":[],\"partIds\":[\"54\",\"63\",\"135\",\"45\",\"32\"],\n    #                                              \"deviceRuleTemplateId\":\"306935424738136064\",\"enteId\":32,\"deptId\":103,\n    #                                              \"address\":address,\"appVersion\":\"应用版本\",\"batchCode\":\"2020-11\",\"provinceId\":9,\"cityId\":104,\n    #                                              \"countyId\":1134,\"townId\":13798,\"centerId\":\"\",\"communityId\":3155375,\n    #                                              \"deviceVersion\":\"系统版本\",\"emergencyContactUserId\":369,\"gasNumber\":\"煤气卡编号\",\n    #                                              \"lat\":39.910925,\"lon\":116.413384,\"macCode\":maccode,\"remark\":\"\",\"romVersion\":\"硬件版本\",\n    #                                              \"title\":title,\"phone\":\"18116312806\",\"time\":\"2021-01-01 00:00:00\",\n    #                                              \"versionId\":\"313539145957904384\",\"provinceName\":\"上海市\",\"cityName\":\"市辖区\",\n    #                                              \"countyName\":\"浦东新区\",\"townName\":\"南汇新城镇\",\"communityName\":\"宜浩佳园一居委会\",\n    #                                              \"addressCode\":\"31011514500002\"},headers=head)\n    #\n    #     assertions.assert_code(add_device_resp.status_code,200)\n    #\n    #     add_device_resp_json = add_device_resp.json()\n    #\n    #     assertions.assert_in_text(add_device_resp_json['resMsg'],'success')\n    #\n        # 将携带的参数传给params\n        a = {\"page\" : 1 , \"size\" : 10 , \"fuzzy\" : title}\n    \n        query_device_info_resp = request.get_request(url=url1 +\"/api/device/console/device/info/query/CombinationQuery\",\n                                                    params= a, headers=head)\n        # 通过状态码进行判断\n        assertions.assert_code(query_device_info_resp.status_code,200)\n    \n        # 提取响应正文\n        query_device_info_resp_json = query_device_info_resp.json()\n    \n        # 通过响应正文进行对比判断\n        assertions.assert_in_text(query_device_info_resp_json['resMsg'],'success')\n    \n        # 获取josn中data\n        query_device_info_resp_json_data = query_device_info_resp_json['data']\n    \n        # 获取data中的list\n>       query_device_info_resp_json_data_list = query_device_info_resp_json_data['list']\nE       KeyError: 'list'\n\nTestQS\\configure_device\\test_configure_device.py:88: KeyError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6b4909915ab9d52d",
+      "name" : "请求",
+      "source" : "6b4909915ab9d52d.txt",
+      "type" : "text/plain",
+      "size" : 911
+    }, {
+      "uid" : "65c19c464f780673",
+      "name" : "响应",
+      "source" : "65c19c464f780673.txt",
+      "type" : "text/plain",
+      "size" : 534
+    }, {
+      "uid" : "b741589001ddf4be",
+      "name" : "log",
+      "source" : "b741589001ddf4be.txt",
+      "type" : "text/plain",
+      "size" : 2004
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "添加设备"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "配置设备"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestQS.configure_device"
+  }, {
+    "name" : "suite",
+    "value" : "test_configure_device"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_info"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-43Q8N5G"
+  }, {
+    "name" : "thread",
+    "value" : "1684-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestQS.configure_device.test_configure_device"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "55bccf1def8483ca.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,11 @@
+---------------请求-----------------
+http://guanjia.20783378.com/api/device/console/device/info/add
+User-Agent: python-requests/2.24.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+console-token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiLmmbrmsYflrrblm60t54mp5Lia566h55CGIiwiaWQiOiIyMiIsImV4cCI6MTYxMDA0NTk1NSwiaWF0IjoxNjA5OTk5MTU1LCJ1c2VyIjoie1wiaWRcIjoyMixcInVzZXJuYW1lXCI6XCJhZG1pblwiLFwicmVhbG5hbWVcIjpcIui2hee6p-euoeeQhuWRmFwiLFwic2V4XCI6MSxcInBob25lXCI6XCIxMzgwMDAxMDAwMVwiLFwid2VDaGF0XCI6XCJ3eFwiLFwic3RhdHVzXCI6MSxcImltZ1VybFwiOlwiaHR0cHM6Ly92My5jZG4ucWVlc2VuLmNvbS9maWxlLzY4NzM0YTMyOGEzMDRkZjA5MWY2ZGFlMDZkM2VhZmIzLmpwZ1wiLFwiZW50ZUlkXCI6MzIsXCJkZXB0SWRcIjo5NixcImRlcHRUaXRsZVwiOlwi5beh5qOA6YOo6ZeoXCJ9In0.-K1YsxpNqQ54bwKOl4k7VhsEsLwnUHjqGhVgKjXbtTo
+Content-Length: 1099
+Content-Type: application/json
+
+b'{"id": "", "sequence": "13124", "partIdsTemp": [], "partIds": ["54", "63", "135", "45", "32"], "deviceRuleTemplateId": "306935424738136064", "enteId": 32, "deptId": 103, "address": "\\u4e0a\\u6d77\\u5343\\u58f0\\u7f51\\u7edc\\u79d1\\u6280\\u6709\\u9650\\u516c\\u53f83\\u697c", "appVersion": "\\u5e94\\u7528\\u7248\\u672c", "batchCode": "2020-11", "provinceId": 9, "cityId": 104, "countyId": 1134, "townId": 13798, "centerId": "", "communityId": 3155375, "deviceVersion": "\\u7cfb\\u7edf\\u7248\\u672c", "emergencyContactUserId": 369, "gasNumber": "\\u7164\\u6c14\\u5361\\u7f16\\u53f7", "lat": 39.910925, "lon": 116.413384, "macCode": "6c:21:a2:c8:7a:21", "remark": "", "romVersion": "\\u786c\\u4ef6\\u7248\\u672c", "title": "\\u516c\\u53f8\\u4e09\\u697c\\u7ec8\\u7aef(\\u6d4b\\u8bd5)", "phone": "18116312806", "time": "2021-01-01 00:00:00", "versionId": "313539145957904384", "provinceName": "\\u4e0a\\u6d77\\u5e02", "cityName": "\\u5e02\\u8f96\\u533a", "countyName": "\\u6d66\\u4e1c\\u65b0\\u533a", "townName": "\\u5357\\u6c47\\u65b0\\u57ce\\u9547", "communityName": "\\u5b9c\\u6d69\\u4f73\\u56ed\\u4e00\\u5c45\\u59d4\\u4f1a", "addressCode": "31011514500002"}'

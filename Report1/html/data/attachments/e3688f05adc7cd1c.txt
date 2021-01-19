@@ -1,0 +1,24 @@
+connectionpool.py          230 DEBUG    Starting new HTTP connection (1): 192.168.1.109:80
+connectionpool.py          442 DEBUG    http://192.168.1.109:80 "POST //api/device/console/device/info/add HTTP/1.1" 500 None
+Log.py                      65 INFO     [INFO 2021-01-12 16:58:11]----请求用时: 149.324 秒数
+Log.py                      65 INFO     [INFO 2021-01-12 16:58:11]---------------请求-----------------
+http://192.168.1.109//api/device/console/device/info/add
+User-Agent: python-requests/2.24.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+console-token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiLmmbrmsYflrrblm60t54mp5Lia566h55CGIiwiaWQiOiIxIiwiZXhwIjoxNjEwNDg4Njg0LCJpYXQiOjE2MTA0NDE4ODQsInVzZXIiOiJ7XCJpZFwiOjEsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIixcInJlYWxuYW1lXCI6XCJhZG1pblwiLFwic2V4XCI6MSxcInBob25lXCI6XCIxMzgwMDAxMDAwMVwiLFwid2VDaGF0XCI6XCIxMzgwMDAxMDAwMVwiLFwic3RhdHVzXCI6MSxcImltZ1VybFwiOlwiaHR0cHM6Ly92My5jZG4ucWVlc2VuLmNvbS9maWxlLzY4NzM0YTMyOGEzMDRkZjA5MWY2ZGFlMDZkM2VhZmIzLmpwZ1wiLFwiZW50ZUlkXCI6MSxcImRlcHRJZFwiOjIsXCJkZXB0VGl0bGVcIjpcIueuoeeQhuWxglwifSJ9.rrsM4Xs9VT5ZrA-yZ01OI0faRj_vlNfVd3V1rdSZ2_c
+Content-Length: 1034
+Content-Type: application/json
+
+b'{"id": "", "sequence": "13124", "partIdsTemp": [], "partIds": ["54", "63", "135", "45", "32"], "deviceRuleTemplateId": "306935424738136064", "enteId": 32, "deptId": 103, "address": "\\u7af9\\u67cf\\u8def111\\u5f04", "appVersion": "\\u5e94\\u7528\\u7248\\u672c", "batchCode": "2020-11", "provinceId": 9, "cityId": 104, "countyId": 1134, "townId": 13798, "centerId": "", "communityId": 3155375, "deviceVersion": "\\u7cfb\\u7edf\\u7248\\u672c", "emergencyContactUserId": 369, "gasNumber": "\\u7164\\u6c14\\u5361\\u7f16\\u53f7", "lat": 39.910925, "lon": 116.413384, "macCode": "C0:84:7D:0E:9A:FE", "remark": "", "romVersion": "\\u786c\\u4ef6\\u7248\\u672c", "title": "\\u5b9c\\u6d69\\u4f73\\u56ed3\\u53f7\\u673a", "phone": "18116312806", "time": "2021-01-01 00:00:00", "versionId": "313539145957904384", "provinceName": "\\u4e0a\\u6d77\\u5e02", "cityName": "\\u5e02\\u8f96\\u533a", "countyName": "\\u6d66\\u4e1c\\u65b0\\u533a", "townName": "\\u5357\\u6c47\\u65b0\\u57ce\\u9547", "communityName": "\\u5b9c\\u6d69\\u4f73\\u56ed\\u4e00\\u5c45\\u59d4\\u4f1a", "addressCode": "31011514500002"}'
+Log.py                      65 INFO     [INFO 2021-01-12 16:58:11]---------------响应----------------
+500
+Server: nginx/1.9.9
+Date: Tue, 12 Jan 2021 08:58:04 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+
+{"resCode":"999999","resMsg":"系统异常"}
+Log.py                      77 ERROR    [ERROR 2021-01-12 16:58:11]响应状态码错误, 预期状态码 is 200, 实际状态码 is 500

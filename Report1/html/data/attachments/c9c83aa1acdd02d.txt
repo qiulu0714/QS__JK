@@ -1,0 +1,92 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:230 Starting new HTTP connection (1): zhongtai.20783378.com:80
+DEBUG    urllib3.connectionpool:connectionpool.py:442 http://zhongtai.20783378.com:80 "POST /api/machineManage/console/shop/vending/machine/addShopVendingMachine HTTP/1.1" 200 None
+INFO     root:Log.py:65 [INFO 2021-01-08 16:11:23]----请求用时: 43.36 秒数
+INFO     root:Log.py:65 [INFO 2021-01-08 16:11:23]---------------请求-----------------
+http://zhongtai.20783378.com/api/machineManage/console/shop/vending/machine/addShopVendingMachine
+User-Agent: python-requests/2.24.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+console-token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiLmmbrmsYflrrblm60t54mp5Lia566h55CGIiwiaWQiOiIyMiIsImV4cCI6MTYxMDE0MDI3NSwiaWF0IjoxNjEwMDkzNDc1LCJ1c2VyIjoie1wiaWRcIjoyMixcInVzZXJuYW1lXCI6XCJhZG1pblwiLFwicmVhbG5hbWVcIjpcIui2hee6p-euoeeQhuWRmFwiLFwic2V4XCI6MSxcInBob25lXCI6XCIxMzgwMDAxMDAwMVwiLFwid2VDaGF0XCI6XCJ3eFwiLFwic3RhdHVzXCI6MSxcImltZ1VybFwiOlwiaHR0cHM6Ly92My5jZG4ucWVlc2VuLmNvbS9maWxlLzY4NzM0YTMyOGEzMDRkZjA5MWY2ZGFlMDZkM2VhZmIzLmpwZ1wiLFwiZW50ZUlkXCI6MzIsXCJkZXB0SWRcIjo5NixcImRlcHRUaXRsZVwiOlwi5beh5qOA6YOo6ZeoXCJ9In0.gJ5UUxUNlTA0DC8egLSOIh16NoPZvZ8nDfQezwWO-7Y
+Content-Length: 344
+Content-Type: application/json
+
+b'{"region": 13798, "sequence": "13124", "address": "\\u7af9\\u67cf\\u8def111\\u5f04", "title": "\\u5b9c\\u6d69\\u4f73\\u56ed3\\u53f7\\u673a", "macAddress": "C0:84:7D:0E:9A:FE", "deviceId": 1418, "saleType": 3, "classId": "274359542857338880", "batchNumber": "2020-11", "runStatus": 1, "remarks": "", "deviceTitle": "\\u5b9c\\u6d69\\u4f73\\u56ed3\\u53f7\\u673a"}'
+INFO     root:Log.py:65 [INFO 2021-01-08 16:11:23]---------------响应----------------
+200
+Server: nginx/1.16.1
+Date: Fri, 08 Jan 2021 08:11:16 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+
+{"resCode":"000000","resMsg":"success"}
+DEBUG    urllib3.connectionpool:connectionpool.py:230 Starting new HTTP connection (1): zhongtai.20783378.com:80
+DEBUG    urllib3.connectionpool:connectionpool.py:442 http://zhongtai.20783378.com:80 "POST /api/machineManage/console/shop/vending/machine/queryShopVendingMachinePage HTTP/1.1" 200 None
+INFO     root:Log.py:65 [INFO 2021-01-08 16:11:23]----请求用时: 39.295 秒数
+INFO     root:Log.py:65 [INFO 2021-01-08 16:11:23]---------------请求-----------------
+http://zhongtai.20783378.com/api/machineManage/console/shop/vending/machine/queryShopVendingMachinePage
+User-Agent: python-requests/2.24.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+console-token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiLmmbrmsYflrrblm60t54mp5Lia566h55CGIiwiaWQiOiIyMiIsImV4cCI6MTYxMDE0MDI3NSwiaWF0IjoxNjEwMDkzNDc1LCJ1c2VyIjoie1wiaWRcIjoyMixcInVzZXJuYW1lXCI6XCJhZG1pblwiLFwicmVhbG5hbWVcIjpcIui2hee6p-euoeeQhuWRmFwiLFwic2V4XCI6MSxcInBob25lXCI6XCIxMzgwMDAxMDAwMVwiLFwid2VDaGF0XCI6XCJ3eFwiLFwic3RhdHVzXCI6MSxcImltZ1VybFwiOlwiaHR0cHM6Ly92My5jZG4ucWVlc2VuLmNvbS9maWxlLzY4NzM0YTMyOGEzMDRkZjA5MWY2ZGFlMDZkM2VhZmIzLmpwZ1wiLFwiZW50ZUlkXCI6MzIsXCJkZXB0SWRcIjo5NixcImRlcHRUaXRsZVwiOlwi5beh5qOA6YOo6ZeoXCJ9In0.gJ5UUxUNlTA0DC8egLSOIh16NoPZvZ8nDfQezwWO-7Y
+Content-Length: 88
+Content-Type: application/json
+
+b'{"page": 1, "size": 10, "saleType": 3, "title": "\\u5b9c\\u6d69\\u4f73\\u56ed3\\u53f7\\u673a"}'
+INFO     root:Log.py:65 [INFO 2021-01-08 16:11:23]---------------响应----------------
+200
+Server: nginx/1.16.1
+Date: Fri, 08 Jan 2021 08:11:16 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+
+{"resCode":"000000","resMsg":"success","data":{"total":2,"list":[{"id":"321154849561382912","title":"宜浩佳园3号机","categoryId":1,"categoryName":"弹簧机","saleType":3,"classId":"274359542857338880","classTitle":"储物柜型号001","deviceId":1418,"macAddress":"C0:84:7D:0E:9A:FE","batchNumber":"2020-11","address":"竹柏路111弄","status":0,"runStatus":1,"runStatusName":"在线","createTime":"2021-01-08 16:11:16","updateTime":"2021-01-08 16:11:16","deleted":0,"deviceTitle":"宜浩佳园3号机","sequence":"13124","goodsTotal":-1,"busySlotCount":0,"freeSlotCount":0,"slotCount":0,"iconUrl":"https://v3.cdn.qeesen.com/file/cbd3fea5b12f4acea901a17266990f72.png","xcount":1,"ycount":8,"zcount":1},{"id":"313169779143741440","title":"宜浩佳园3号机","categoryId":1,"categoryName":"弹簧机","saleType":3,"classId":"274359542857338880","classTitle":"储物柜型号001","deviceId":1418,"macAddress":"B4:0B:44:B4:54:C5","batchNumber":"2020-11","address":"竹柏路333弄","status":0,"runStatus":1,"runStatusName":"在线","createTime":"2020-12-17 15:21:27","updateTime":"2020-12-17 15:21:27","deleted":0,"deviceTitle":"宜浩佳园3号机","sequence":"13124","templateId":"274360209156083712","templateTitle":"储物柜模板001","goodsTotal":0,"busySlotCount":0,"freeSlotCount":8,"slotCount":8,"iconUrl":"https://v3.cdn.qeesen.com/file/cbd3fea5b12f4acea901a17266990f72.png","xcount":1,"ycount":8,"zcount":1}],"pageNum":1,"pageSize":10,"size":2,"startRow":1,"endRow":2,"pages":1,"prePage":0,"nextPage":0,"isFirstPage":true,"isLastPage":true,"hasPreviousPage":false,"hasNextPage":false,"navigatePages":8,"navigatepageNums":[1],"navigateFirstPage":1,"navigateLastPage":1}}
+DEBUG    urllib3.connectionpool:connectionpool.py:230 Starting new HTTP connection (1): zhongtai.20783378.com:80
+DEBUG    urllib3.connectionpool:connectionpool.py:442 http://zhongtai.20783378.com:80 "POST /api/machineManage/console/shop/vending/machine/template/queryShopVendingMachineTemplatePage HTTP/1.1" 200 None
+INFO     root:Log.py:65 [INFO 2021-01-08 16:11:23]----请求用时: 31.175 秒数
+INFO     root:Log.py:65 [INFO 2021-01-08 16:11:23]---------------请求-----------------
+http://zhongtai.20783378.com/api/machineManage/console/shop/vending/machine/template/queryShopVendingMachineTemplatePage
+User-Agent: python-requests/2.24.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+console-token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiLmmbrmsYflrrblm60t54mp5Lia566h55CGIiwiaWQiOiIyMiIsImV4cCI6MTYxMDE0MDI3NSwiaWF0IjoxNjEwMDkzNDc1LCJ1c2VyIjoie1wiaWRcIjoyMixcInVzZXJuYW1lXCI6XCJhZG1pblwiLFwicmVhbG5hbWVcIjpcIui2hee6p-euoeeQhuWRmFwiLFwic2V4XCI6MSxcInBob25lXCI6XCIxMzgwMDAxMDAwMVwiLFwid2VDaGF0XCI6XCJ3eFwiLFwic3RhdHVzXCI6MSxcImltZ1VybFwiOlwiaHR0cHM6Ly92My5jZG4ucWVlc2VuLmNvbS9maWxlLzY4NzM0YTMyOGEzMDRkZjA5MWY2ZGFlMDZkM2VhZmIzLmpwZ1wiLFwiZW50ZUlkXCI6MzIsXCJkZXB0SWRcIjo5NixcImRlcHRUaXRsZVwiOlwi5beh5qOA6YOo6ZeoXCJ9In0.gJ5UUxUNlTA0DC8egLSOIh16NoPZvZ8nDfQezwWO-7Y
+Content-Length: 61
+Content-Type: application/json
+
+b'{"title": "\\u50a8\\u7269\\u67dc\\u6a21\\u677f001", "saleType": 3}'
+INFO     root:Log.py:65 [INFO 2021-01-08 16:11:23]---------------响应----------------
+200
+Server: nginx/1.16.1
+Date: Fri, 08 Jan 2021 08:11:16 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+
+{"resCode":"000000","resMsg":"success","data":{"total":1,"list":[{"id":"274360209156083712","title":"储物柜模板001","classId":"274359542857338880","saleType":3,"machineCount":10,"picUrl":"https://v3.cdn.qeesen.com/file/cbd3fea5b12f4acea901a17266990f72.png","createTime":"2020-09-01 13:06:04","updateTime":"2021-01-08 14:58:05","deleted":0,"status":0,"remarks":"测试","shopVendingMachineClass":{"id":"274359542857338880","title":"储物柜型号001","categoryId":1,"saleType":3,"xcount":1,"ycount":8,"zcount":1}}],"pageNum":1,"pageSize":20,"size":1,"startRow":1,"endRow":1,"pages":1,"prePage":0,"nextPage":0,"isFirstPage":true,"isLastPage":true,"hasPreviousPage":false,"hasNextPage":false,"navigatePages":8,"navigatepageNums":[1],"navigateFirstPage":1,"navigateLastPage":1}}
+DEBUG    urllib3.connectionpool:connectionpool.py:230 Starting new HTTP connection (1): zhongtai.20783378.com:80
+DEBUG    urllib3.connectionpool:connectionpool.py:442 http://zhongtai.20783378.com:80 "POST /api/machineManage/console/shop/vending/machine/template/bindingMachineAndTemplate HTTP/1.1" 200 None
+INFO     root:Log.py:65 [INFO 2021-01-08 16:11:23]----请求用时: 62.149 秒数
+INFO     root:Log.py:65 [INFO 2021-01-08 16:11:23]---------------请求-----------------
+http://zhongtai.20783378.com/api/machineManage/console/shop/vending/machine/template/bindingMachineAndTemplate
+User-Agent: python-requests/2.24.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+console-token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiLmmbrmsYflrrblm60t54mp5Lia566h55CGIiwiaWQiOiIyMiIsImV4cCI6MTYxMDE0MDI3NSwiaWF0IjoxNjEwMDkzNDc1LCJ1c2VyIjoie1wiaWRcIjoyMixcInVzZXJuYW1lXCI6XCJhZG1pblwiLFwicmVhbG5hbWVcIjpcIui2hee6p-euoeeQhuWRmFwiLFwic2V4XCI6MSxcInBob25lXCI6XCIxMzgwMDAxMDAwMVwiLFwid2VDaGF0XCI6XCJ3eFwiLFwic3RhdHVzXCI6MSxcImltZ1VybFwiOlwiaHR0cHM6Ly92My5jZG4ucWVlc2VuLmNvbS9maWxlLzY4NzM0YTMyOGEzMDRkZjA5MWY2ZGFlMDZkM2VhZmIzLmpwZ1wiLFwiZW50ZUlkXCI6MzIsXCJkZXB0SWRcIjo5NixcImRlcHRUaXRsZVwiOlwi5beh5qOA6YOo6ZeoXCJ9In0.gJ5UUxUNlTA0DC8egLSOIh16NoPZvZ8nDfQezwWO-7Y
+Content-Length: 74
+Content-Type: application/json
+
+b'{"machineIds": ["321154849561382912"], "templateId": "274360209156083712"}'
+INFO     root:Log.py:65 [INFO 2021-01-08 16:11:23]---------------响应----------------
+200
+Server: nginx/1.16.1
+Date: Fri, 08 Jan 2021 08:11:16 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+
+{"resCode":"000000","resMsg":"success"}

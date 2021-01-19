@@ -1,0 +1,129 @@
+{
+  "uid" : "2a5ddefe3d64c6d9",
+  "name" : "test_add_device",
+  "fullName" : "TestQS.configure_device.test_configure_device.Test_info#test_add_device",
+  "historyId" : "20718b258ff8f1e9957c916393e2e957",
+  "time" : {
+    "start" : 1610441891011,
+    "stop" : 1610441891164,
+    "duration" : 153
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError",
+  "statusTrace" : "self = <TestQS.configure_device.test_configure_device.Test_info object at 0x03D9BC50>\n\n    @allure.severity(\"critical\")\n    @allure.story(\"添加设备\")\n    def test_add_device(self):\n        add_device_resp = request.post_request(url=url1 + '/api/device/console/device/info/add',\n                                          json ={\"id\":\"\",\"sequence\":sequence,\"partIdsTemp\":[],\"partIds\":[\"54\",\"63\",\"135\",\"45\",\"32\"],\n                                                 \"deviceRuleTemplateId\":\"306935424738136064\",\"enteId\":32,\"deptId\":103,\n                                                 \"address\":address,\"appVersion\":\"应用版本\",\"batchCode\":\"2020-11\",\"provinceId\":9,\"cityId\":104,\n                                                 \"countyId\":1134,\"townId\":13798,\"centerId\":\"\",\"communityId\":3155375,\n                                                 \"deviceVersion\":\"系统版本\",\"emergencyContactUserId\":369,\"gasNumber\":\"煤气卡编号\",\n                                                 \"lat\":39.910925,\"lon\":116.413384,\"macCode\":maccode,\"remark\":\"\",\"romVersion\":\"硬件版本\",\n                                                 \"title\":title,\"phone\":\"18116312806\",\"time\":\"2021-01-01 00:00:00\",\n                                                 \"versionId\":\"313539145957904384\",\"provinceName\":\"上海市\",\"cityName\":\"市辖区\",\n                                                 \"countyName\":\"浦东新区\",\"townName\":\"南汇新城镇\",\"communityName\":\"宜浩佳园一居委会\",\n                                                 \"addressCode\":\"31011514500002\"},headers=head)\n    \n>       assertions.assert_code(add_device_resp.status_code,200)\n\nTestQS\\configure_device\\test_configure_device.py:63: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <Common.Assert.Assertions object at 0x03932EB0>, code = 500\nexpected_code = 200\n\n    def assert_code(self, code, expected_code):\n        \"\"\"\n        验证response状态码\n        :param code:\n        :param expected_code:\n        :return:\n        \"\"\"\n        try:\n>           assert code == expected_code\nE           AssertionError\n\nCommon\\Assert.py:23: AssertionError",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError",
+    "statusTrace" : "self = <TestQS.configure_device.test_configure_device.Test_info object at 0x03D9BC50>\n\n    @allure.severity(\"critical\")\n    @allure.story(\"添加设备\")\n    def test_add_device(self):\n        add_device_resp = request.post_request(url=url1 + '/api/device/console/device/info/add',\n                                          json ={\"id\":\"\",\"sequence\":sequence,\"partIdsTemp\":[],\"partIds\":[\"54\",\"63\",\"135\",\"45\",\"32\"],\n                                                 \"deviceRuleTemplateId\":\"306935424738136064\",\"enteId\":32,\"deptId\":103,\n                                                 \"address\":address,\"appVersion\":\"应用版本\",\"batchCode\":\"2020-11\",\"provinceId\":9,\"cityId\":104,\n                                                 \"countyId\":1134,\"townId\":13798,\"centerId\":\"\",\"communityId\":3155375,\n                                                 \"deviceVersion\":\"系统版本\",\"emergencyContactUserId\":369,\"gasNumber\":\"煤气卡编号\",\n                                                 \"lat\":39.910925,\"lon\":116.413384,\"macCode\":maccode,\"remark\":\"\",\"romVersion\":\"硬件版本\",\n                                                 \"title\":title,\"phone\":\"18116312806\",\"time\":\"2021-01-01 00:00:00\",\n                                                 \"versionId\":\"313539145957904384\",\"provinceName\":\"上海市\",\"cityName\":\"市辖区\",\n                                                 \"countyName\":\"浦东新区\",\"townName\":\"南汇新城镇\",\"communityName\":\"宜浩佳园一居委会\",\n                                                 \"addressCode\":\"31011514500002\"},headers=head)\n    \n>       assertions.assert_code(add_device_resp.status_code,200)\n\nTestQS\\configure_device\\test_configure_device.py:63: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <Common.Assert.Assertions object at 0x03932EB0>, code = 500\nexpected_code = 200\n\n    def assert_code(self, code, expected_code):\n        \"\"\"\n        验证response状态码\n        :param code:\n        :param expected_code:\n        :return:\n        \"\"\"\n        try:\n>           assert code == expected_code\nE           AssertionError\n\nCommon\\Assert.py:23: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "205ea85c1be76a6f",
+      "name" : "请求",
+      "source" : "205ea85c1be76a6f.txt",
+      "type" : "text/plain",
+      "size" : 1910
+    }, {
+      "uid" : "f788872317b26e1d",
+      "name" : "响应",
+      "source" : "f788872317b26e1d.txt",
+      "type" : "text/plain",
+      "size" : 238
+    }, {
+      "uid" : "e3688f05adc7cd1c",
+      "name" : "log",
+      "source" : "e3688f05adc7cd1c.txt",
+      "type" : "text/plain",
+      "size" : 2734
+    }, {
+      "uid" : "1140b886dbfcce64",
+      "name" : "stdout",
+      "source" : "1140b886dbfcce64.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "72ea7ecb7739fb29",
+      "name" : "stderr",
+      "source" : "72ea7ecb7739fb29.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "添加设备"
+  }, {
+    "name" : "feature",
+    "value" : "配置设备"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestQS.configure_device"
+  }, {
+    "name" : "suite",
+    "value" : "test_configure_device"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_info"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-43Q8N5G"
+  }, {
+    "name" : "thread",
+    "value" : "10820-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestQS.configure_device.test_configure_device"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "47c5c98c05a23c9",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1610441305672,
+        "stop" : 1610441305744,
+        "duration" : 72
+      }
+    }, {
+      "uid" : "93cb278b37022bb7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610417752530,
+        "stop" : 1610417752570,
+        "duration" : 40
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "2a5ddefe3d64c6d9.json",
+  "parameterValues" : [ ]
+}

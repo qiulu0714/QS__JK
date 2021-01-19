@@ -1,0 +1,102 @@
+{
+  "uid" : "b41b6c965b19718a",
+  "name" : "test_login",
+  "fullName" : "TestQS.configure_device.test_configure_device.Test_info#test_login",
+  "historyId" : "12bd2cc53989914a650992d09ee0b597",
+  "time" : {
+    "start" : 1608176737829,
+    "stop" : 1608176737967,
+    "duration" : 138
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a3bc3657fb33d543",
+      "name" : "请求",
+      "source" : "a3bc3657fb33d543.txt",
+      "type" : "text/plain",
+      "size" : 296
+    }, {
+      "uid" : "c0a158e870e692fc",
+      "name" : "响应",
+      "source" : "c0a158e870e692fc.txt",
+      "type" : "text/plain",
+      "size" : 844
+    }, {
+      "uid" : "f5a3d9ced93de9ee",
+      "name" : "请求",
+      "source" : "f5a3d9ced93de9ee.txt",
+      "type" : "text/plain",
+      "size" : 847
+    }, {
+      "uid" : "dbe69475b867b3e5",
+      "name" : "响应",
+      "source" : "dbe69475b867b3e5.txt",
+      "type" : "text/plain",
+      "size" : 1041
+    }, {
+      "uid" : "fb0b800322fc14a7",
+      "name" : "log",
+      "source" : "fb0b800322fc14a7.txt",
+      "type" : "text/plain",
+      "size" : 3997
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "用户登录"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "配置设备"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestQS.configure_device"
+  }, {
+    "name" : "suite",
+    "value" : "test_configure_device"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_info"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-43Q8N5G"
+  }, {
+    "name" : "thread",
+    "value" : "15876-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestQS.configure_device.test_configure_device"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b41b6c965b19718a.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,9 @@
+---------------响应----------------
+200
+Server: nginx/1.16.1
+Date: Tue, 12 Jan 2021 02:15:46 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+
+{"resCode":"000000","resMsg":"success","data":{"total":2,"list":[{"id":"322514937450598400","title":"宜浩佳园3号机","categoryId":1,"categoryName":"弹簧机","saleType":3,"classId":"274359542857338880","classTitle":"储物柜型号001","deviceId":1418,"macAddress":"C0:84:7D:0E:9A:FE","batchNumber":"2020-11","address":"竹柏路111弄","status":0,"runStatus":1,"runStatusName":"在线","createTime":"2021-01-12 10:15:46","updateTime":"2021-01-12 10:15:46","deleted":0,"deviceTitle":"宜浩佳园3号机","sequence":"13124","goodsTotal":-1,"busySlotCount":0,"freeSlotCount":0,"slotCount":0,"iconUrl":"https://v3.cdn.qeesen.com/file/cbd3fea5b12f4acea901a17266990f72.png","xcount":1,"ycount":8,"zcount":1},{"id":"321154849561382912","title":"宜浩佳园3号机","categoryId":1,"categoryName":"弹簧机","saleType":3,"classId":"274359542857338880","classTitle":"储物柜型号001","deviceId":1418,"macAddress":"C0:84:7D:0E:9A:FE","batchNumber":"2020-11","address":"竹柏路111弄","status":0,"runStatus":1,"runStatusName":"在线","createTime":"2021-01-08 16:11:16","updateTime":"2021-01-08 16:11:16","deleted":0,"deviceTitle":"宜浩佳园3号机","sequence":"13124","templateId":"274360209156083712","templateTitle":"储物柜模板001","goodsTotal":0,"busySlotCount":0,"freeSlotCount":8,"slotCount":8,"iconUrl":"https://v3.cdn.qeesen.com/file/cbd3fea5b12f4acea901a17266990f72.png","xcount":1,"ycount":8,"zcount":1}],"pageNum":1,"pageSize":10,"size":2,"startRow":1,"endRow":2,"pages":1,"prePage":0,"nextPage":0,"isFirstPage":true,"isLastPage":true,"hasPreviousPage":false,"hasNextPage":false,"navigatePages":8,"navigatepageNums":[1],"navigateFirstPage":1,"navigateLastPage":1}}

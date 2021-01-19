@@ -1,0 +1,43 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:230 Starting new HTTP connection (1): guanjia.20783378.com:80
+DEBUG    urllib3.connectionpool:connectionpool.py:442 http://guanjia.20783378.com:80 "POST /api/user/public/pwd/login HTTP/1.1" 200 None
+INFO     root:Log.py:65 [INFO 2020-12-17 12:58:11]----请求用时: 181.989 秒数
+INFO     root:Log.py:65 [INFO 2020-12-17 12:58:11]---------------请求-----------------
+http://guanjia.20783378.com/api/user/public/pwd/login
+User-Agent: python-requests/2.24.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 48
+Content-Type: application/json
+
+b'{"subject": "13800010001", "password": "123456"}'
+INFO     root:Log.py:65 [INFO 2020-12-17 12:58:11]---------------响应----------------
+200
+Server: nginx/1.16.1
+Date: Thu, 17 Dec 2020 04:58:04 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+
+{"resCode":"000000","resMsg":"success","data":{"consoleToken":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiLmmbrmsYflrrblm60t54mp5Lia566h55CGIiwiaWQiOiIyMiIsImV4cCI6MTYwODIyNzg4NCwiaWF0IjoxNjA4MTgxMDg0LCJ1c2VyIjoie1wiaWRcIjoyMixcInVzZXJuYW1lXCI6XCJhZG1pblwiLFwicmVhbG5hbWVcIjpcIui2hee6p-euoeeQhuWRmFwiLFwic2V4XCI6MSxcInBob25lXCI6XCIxMzgwMDAxMDAwMVwiLFwid2VDaGF0XCI6XCJ3eFwiLFwic3RhdHVzXCI6MSxcImltZ1VybFwiOlwiaHR0cHM6Ly92My5jZG4ucWVlc2VuLmNvbS9maWxlLzY4NzM0YTMyOGEzMDRkZjA5MWY2ZGFlMDZkM2VhZmIzLmpwZ1wiLFwiZW50ZUlkXCI6MzIsXCJkZXB0SWRcIjo5Nn0ifQ.kP7ExdCULKqEexf1cC8IlkbpEtV1YfSC4KnWOiUNefU","userName":"admin","realName":"超级管理员","id":22}}
+DEBUG    urllib3.connectionpool:connectionpool.py:230 Starting new HTTP connection (1): guanjia.20783378.com:80
+DEBUG    urllib3.connectionpool:connectionpool.py:442 http://guanjia.20783378.com:80 "GET /api/device/console/device/info/query/CombinationQuery?page=1&size=10&fuzzy=%E9%92%B1%E6%96%8C%E4%B8%80%E5%8F%B7%E6%9C%BA HTTP/1.1" 200 None
+INFO     root:Log.py:65 [INFO 2020-12-17 12:58:11]----请求用时: 40.486 秒数
+INFO     root:Log.py:65 [INFO 2020-12-17 12:58:11]---------------请求-----------------
+http://guanjia.20783378.com/api/device/console/device/info/query/CombinationQuery?page=1&size=10&fuzzy=%E9%92%B1%E6%96%8C%E4%B8%80%E5%8F%B7%E6%9C%BA
+User-Agent: python-requests/2.24.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+console-token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiLmmbrmsYflrrblm60t54mp5Lia566h55CGIiwiaWQiOiIyMiIsImV4cCI6MTYwODIyNzg4NCwiaWF0IjoxNjA4MTgxMDg0LCJ1c2VyIjoie1wiaWRcIjoyMixcInVzZXJuYW1lXCI6XCJhZG1pblwiLFwicmVhbG5hbWVcIjpcIui2hee6p-euoeeQhuWRmFwiLFwic2V4XCI6MSxcInBob25lXCI6XCIxMzgwMDAxMDAwMVwiLFwid2VDaGF0XCI6XCJ3eFwiLFwic3RhdHVzXCI6MSxcImltZ1VybFwiOlwiaHR0cHM6Ly92My5jZG4ucWVlc2VuLmNvbS9maWxlLzY4NzM0YTMyOGEzMDRkZjA5MWY2ZGFlMDZkM2VhZmIzLmpwZ1wiLFwiZW50ZUlkXCI6MzIsXCJkZXB0SWRcIjo5Nn0ifQ.kP7ExdCULKqEexf1cC8IlkbpEtV1YfSC4KnWOiUNefU
+
+None
+INFO     root:Log.py:65 [INFO 2020-12-17 12:58:11]---------------响应----------------
+200
+Server: nginx/1.16.1
+Date: Thu, 17 Dec 2020 04:58:04 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+
+{"resCode":"000000","resMsg":"success","data":{"total":1,"list":[{"id":9,"title":"钱斌一号机","address":"瑞和路900弄","macCode":"E0:13:B5:C1:D0:D1","appVersion":"3.0","phone":"13800010009","realname":"string124","provinceId":9,"cityId":104,"countyId":1134,"townId":13787,"centerId":1000005,"communityId":3000014,"sequence":"0","deviceVersion":"3.0","romVersion":"3.0"}],"pageNum":1,"pageSize":10,"size":1,"startRow":1,"endRow":1,"pages":1,"prePage":0,"nextPage":0,"isFirstPage":true,"isLastPage":true,"hasPreviousPage":false,"hasNextPage":false,"navigatePages":8,"navigatepageNums":[1],"navigateFirstPage":1,"navigateLastPage":1}}

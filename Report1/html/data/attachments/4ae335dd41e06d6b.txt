@@ -1,0 +1,11 @@
+---------------请求-----------------
+http://zhongtai.20783378.com/api/machineManage/console/shop/vending/machine/addShopVendingMachine
+User-Agent: python-requests/2.24.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+console-token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiLmmbrmsYflrrblm60t54mp5Lia566h55CGIiwiaWQiOiIyMiIsImV4cCI6MTYwNjQyNTIxNCwiaWF0IjoxNjA2Mzc4NDE0LCJ1c2VyIjoie1wiaWRcIjoyMixcInVzZXJuYW1lXCI6XCJhZG1pblwiLFwicmVhbG5hbWVcIjpcIui2hee6p-euoeeQhuWRmFwiLFwic2V4XCI6MSxcInBob25lXCI6XCIxMzgwMDAxMDAwMVwiLFwid2VDaGF0XCI6XCJ3eFwiLFwic3RhdHVzXCI6MSxcImltZ1VybFwiOlwiaHR0cHM6Ly92My5jZG4ucWVlc2VuLmNvbS9maWxlLzY4NzM0YTMyOGEzMDRkZjA5MWY2ZGFlMDZkM2VhZmIzLmpwZ1wiLFwiZW50ZUlkXCI6MzIsXCJkZXB0SWRcIjo5Nn0ifQ.mRH7i39nhXOjt8kM4RCcZkpJMphgILb9mTdHeKcYipw
+Content-Length: 309
+Content-Type: application/json
+
+b'{"region": 13787, "sequence": "13124", "address": "\\u6c88\\u675c\\u516c\\u8def1000\\u5f04", "title": "\\u5343\\u58f0\\u673a\\u5668", "macAddress": "7", "deviceId": 1403, "saleType": 1, "classId": "295409877709230080", "batchNumber": "2020-11", "runStatus": 1, "remarks": "", "deviceTitle": "\\u5343\\u58f0\\u673a\\u5668"}'

@@ -1,0 +1,9 @@
+---------------响应----------------
+200
+Server: nginx/1.16.1
+Date: Fri, 08 Jan 2021 08:05:53 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+
+{"resCode":"000000","resMsg":"success","data":{"total":1,"list":[{"id":"321153493651951616","title":"宜浩佳园南区(北1门)","categoryId":1,"categoryName":"弹簧机","saleType":3,"classId":"274359542857338880","classTitle":"储物柜型号001","deviceId":1420,"macAddress":"C0:84:7D:0E:6A:F6","batchNumber":"2020-11","address":"上海市浦东新区竹柏路333弄","status":0,"runStatus":1,"runStatusName":"在线","createTime":"2021-01-08 16:05:52","updateTime":"2021-01-08 16:05:52","deleted":0,"deviceTitle":"宜浩佳园南区(北1门)","sequence":"13124","goodsTotal":-1,"busySlotCount":0,"freeSlotCount":0,"slotCount":0,"iconUrl":"https://v3.cdn.qeesen.com/file/cbd3fea5b12f4acea901a17266990f72.png","xcount":1,"ycount":8,"zcount":1}],"pageNum":1,"pageSize":10,"size":1,"startRow":1,"endRow":1,"pages":1,"prePage":0,"nextPage":0,"isFirstPage":true,"isLastPage":true,"hasPreviousPage":false,"hasNextPage":false,"navigatePages":8,"navigatepageNums":[1],"navigateFirstPage":1,"navigateLastPage":1}}

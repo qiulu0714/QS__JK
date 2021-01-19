@@ -1,0 +1,176 @@
+{
+  "uid" : "1d01fcb4e427b803",
+  "name" : "test_add_Vending_Machine",
+  "fullName" : "TestQS.configure_device.test_configure_device.Test_info#test_add_Vending_Machine",
+  "historyId" : "87d9cdc816289c3143adb669ef552dff",
+  "time" : {
+    "start" : 1607577576254,
+    "stop" : 1607577576739,
+    "duration" : 485
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4434aa7adcff346f",
+      "name" : "请求",
+      "source" : "4434aa7adcff346f.txt",
+      "type" : "text/plain",
+      "size" : 1174
+    }, {
+      "uid" : "a4abb760ccde9cce",
+      "name" : "响应",
+      "source" : "a4abb760ccde9cce.txt",
+      "type" : "text/plain",
+      "size" : 234
+    }, {
+      "uid" : "3e8fe793107792db",
+      "name" : "请求",
+      "source" : "3e8fe793107792db.txt",
+      "type" : "text/plain",
+      "size" : 1174
+    }, {
+      "uid" : "ba4f572f51f5f267",
+      "name" : "响应",
+      "source" : "ba4f572f51f5f267.txt",
+      "type" : "text/plain",
+      "size" : 234
+    }, {
+      "uid" : "593b42915dafd8e1",
+      "name" : "请求",
+      "source" : "593b42915dafd8e1.txt",
+      "type" : "text/plain",
+      "size" : 920
+    }, {
+      "uid" : "3d986ec00483cc8a",
+      "name" : "响应",
+      "source" : "3d986ec00483cc8a.txt",
+      "type" : "text/plain",
+      "size" : 1617
+    }, {
+      "uid" : "303daa272d1e45ec",
+      "name" : "请求",
+      "source" : "303daa272d1e45ec.txt",
+      "type" : "text/plain",
+      "size" : 907
+    }, {
+      "uid" : "1ccc4931af4761c5",
+      "name" : "响应",
+      "source" : "1ccc4931af4761c5.txt",
+      "type" : "text/plain",
+      "size" : 1359
+    }, {
+      "uid" : "c7f1390bb86adadd",
+      "name" : "请求",
+      "source" : "c7f1390bb86adadd.txt",
+      "type" : "text/plain",
+      "size" : 922
+    }, {
+      "uid" : "c8262277ecb671d4",
+      "name" : "响应",
+      "source" : "c8262277ecb671d4.txt",
+      "type" : "text/plain",
+      "size" : 234
+    }, {
+      "uid" : "6c665308b8b714b",
+      "name" : "请求",
+      "source" : "6c665308b8b714b.txt",
+      "type" : "text/plain",
+      "size" : 922
+    }, {
+      "uid" : "e06cc527fd28ba50",
+      "name" : "响应",
+      "source" : "e06cc527fd28ba50.txt",
+      "type" : "text/plain",
+      "size" : 234
+    }, {
+      "uid" : "17b5410d4445999f",
+      "name" : "log",
+      "source" : "17b5410d4445999f.txt",
+      "type" : "text/plain",
+      "size" : 12853
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 13,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "配置设备"
+  }, {
+    "name" : "story",
+    "value" : "添加售货机"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestQS.configure_device"
+  }, {
+    "name" : "suite",
+    "value" : "test_configure_device"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_info"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-43Q8N5G"
+  }, {
+    "name" : "thread",
+    "value" : "6120-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestQS.configure_device.test_configure_device"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "a546aca7c1b2e79e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606381136671,
+        "stop" : 1606381137013,
+        "duration" : 342
+      }
+    }, {
+      "uid" : "b34f9ff34acf3c50",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606379110713,
+        "stop" : 1606379111061,
+        "duration" : 348
+      }
+    }, {
+      "uid" : "3022b37c9c7d4780",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606378418396,
+        "stop" : 1606378418596,
+        "duration" : 200
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1d01fcb4e427b803.json",
+  "parameterValues" : [ ]
+}

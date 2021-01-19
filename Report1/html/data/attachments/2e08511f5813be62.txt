@@ -1,0 +1,9 @@
+---------------响应----------------
+200
+Server: nginx/1.16.1
+Date: Fri, 18 Dec 2020 05:09:11 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+
+{"resCode":"000000","resMsg":"success","data":{"total":1,"list":[{"id":"313498882896039936","title":"公司二号机","categoryId":1,"categoryName":"弹簧机","saleType":3,"classId":"274359542857338880","classTitle":"测试型号","deviceId":1417,"macAddress":"C0:84:7D:A6:16:86","batchNumber":"2020-11","address":"沈梅东路30","status":0,"runStatus":1,"runStatusName":"在线","createTime":"2020-12-18 13:09:11","updateTime":"2020-12-18 13:09:11","deleted":0,"deviceTitle":"公司二号机","sequence":"13124","goodsTotal":-1,"busySlotCount":0,"freeSlotCount":0,"slotCount":0,"iconUrl":"https://v3.cdn.qeesen.com/file/cbd3fea5b12f4acea901a17266990f72.png","xcount":1,"ycount":8,"zcount":1}],"pageNum":1,"pageSize":10,"size":1,"startRow":1,"endRow":1,"pages":1,"prePage":0,"nextPage":0,"isFirstPage":true,"isLastPage":true,"hasPreviousPage":false,"hasNextPage":false,"navigatePages":8,"navigatepageNums":[1],"navigateFirstPage":1,"navigateLastPage":1}}

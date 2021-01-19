@@ -1,0 +1,185 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "获取登录用户信息",
+    "children" : [ {
+      "name" : "添加售货机",
+      "children" : [ {
+        "name" : "test_add_VendingMachine",
+        "uid" : "586537f73b4caa9d",
+        "parentUid" : "3507c74308abb18583f4ad4681e58199",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606378418024,
+          "stop" : 1606378418394,
+          "duration" : 370
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3507c74308abb18583f4ad4681e58199"
+    } ],
+    "uid" : "27c6723d436be326d959975df9b9ef33"
+  }, {
+    "name" : "配置设备",
+    "children" : [ {
+      "name" : "添加售货机",
+      "children" : [ {
+        "name" : "test_add_Vending_Machine",
+        "uid" : "1d01fcb4e427b803",
+        "parentUid" : "b628c303bbf1eb86b70a582ddb98b203",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607577576254,
+          "stop" : 1607577576739,
+          "duration" : 485
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b628c303bbf1eb86b70a582ddb98b203"
+    }, {
+      "name" : "配置设备功能模板",
+      "children" : [ {
+        "name" : "test_add_template",
+        "uid" : "aecf6d5f4411725a",
+        "parentUid" : "ba069b3883a5bc037fdb81f9d25890ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609999162287,
+          "stop" : 1609999162384,
+          "duration" : 97
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_add_template",
+        "uid" : "ff9d7100b5c27415",
+        "parentUid" : "ba069b3883a5bc037fdb81f9d25890ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610441891201,
+          "stop" : 1610441891340,
+          "duration" : 139
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ba069b3883a5bc037fdb81f9d25890ef"
+    }, {
+      "name" : "用户登录",
+      "children" : [ {
+        "name" : "test_login",
+        "uid" : "99bdcac8616cb37d",
+        "parentUid" : "db12abb7eb98d66f9903428b99824dd0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610093483226,
+          "stop" : 1610093483271,
+          "duration" : 45
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login",
+        "uid" : "baca428cb1542575",
+        "parentUid" : "db12abb7eb98d66f9903428b99824dd0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610441890983,
+          "stop" : 1610441890997,
+          "duration" : 14
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "db12abb7eb98d66f9903428b99824dd0"
+    }, {
+      "name" : "添加设备",
+      "children" : [ {
+        "name" : "test_add_device",
+        "uid" : "3d0a392a9a44b60e",
+        "parentUid" : "4da844849606fc6eddf6c1ea68069a88",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610093483273,
+          "stop" : 1610093483316,
+          "duration" : 43
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_add_device",
+        "uid" : "2a5ddefe3d64c6d9",
+        "parentUid" : "4da844849606fc6eddf6c1ea68069a88",
+        "status" : "failed",
+        "time" : {
+          "start" : 1610441891011,
+          "stop" : 1610441891164,
+          "duration" : 153
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4da844849606fc6eddf6c1ea68069a88"
+    }, {
+      "name" : "应急物资设备配置",
+      "children" : [ {
+        "name" : "test_add_emergency_supplies",
+        "uid" : "6703337696d9ba40",
+        "parentUid" : "c17551fcc72d7db5c4d3ff0da069b58e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610093483318,
+          "stop" : 1610093483510,
+          "duration" : 192
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_add_emergency_supplies",
+        "uid" : "f4aa029f0808fd92",
+        "parentUid" : "c17551fcc72d7db5c4d3ff0da069b58e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610441305791,
+          "stop" : 1610441306289,
+          "duration" : 498
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c17551fcc72d7db5c4d3ff0da069b58e"
+    }, {
+      "name" : "储物柜设备配置",
+      "children" : [ {
+        "name" : "test_add_locker",
+        "uid" : "f24ae6794a395d13",
+        "parentUid" : "3b1da12e9306e4e706532b579ec8323f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610093483513,
+          "stop" : 1610093483723,
+          "duration" : 210
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_add_locker",
+        "uid" : "8c083cbf62cd3f95",
+        "parentUid" : "3b1da12e9306e4e706532b579ec8323f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610441306292,
+          "stop" : 1610441306535,
+          "duration" : 243
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3b1da12e9306e4e706532b579ec8323f"
+    } ],
+    "uid" : "24735722cfdcd38eb491bd7b6e636982"
+  } ]
+}

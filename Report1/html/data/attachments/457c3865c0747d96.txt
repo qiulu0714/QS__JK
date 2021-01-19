@@ -1,0 +1,10 @@
+---------------请求-----------------
+http://guanjia.20783378.com/api/user/public/pwd/login
+User-Agent: python-requests/2.24.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 48
+Content-Type: application/json
+
+b'{"subject": "13800010001", "password": "123456"}'

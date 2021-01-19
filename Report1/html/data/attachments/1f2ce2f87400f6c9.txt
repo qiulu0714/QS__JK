@@ -1,0 +1,9 @@
+---------------响应----------------
+200
+Server: nginx/1.16.1
+Date: Thu, 10 Dec 2020 05:19:30 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+
+{"resCode":"000000","resMsg":"success","data":{"total":1,"list":[{"id":1411,"title":"公司平板","address":"沈梅路123弄","macCode":"54:F2:94:8C:19:70","appVersion":"3.0","phone":"17323926305","realname":"邱露","provinceId":9,"cityId":104,"countyId":1134,"townId":13787,"centerId":1000022,"communityId":3000007,"listReqVos":[{"name":"高清摄像头","status":"0","did":45},{"name":"3*6型储物柜","status":"0","did":33},{"name":"4*8型储物柜","status":"0","did":32}],"sequence":"20201210","deviceVersion":"7.0","romVersion":"3.0","templateModel":"测试型号1"}],"pageNum":1,"pageSize":10,"size":1,"startRow":1,"endRow":1,"pages":1,"prePage":0,"nextPage":0,"isFirstPage":true,"isLastPage":true,"hasPreviousPage":false,"hasNextPage":false,"navigatePages":8,"navigatepageNums":[1],"navigateFirstPage":1,"navigateLastPage":1}}

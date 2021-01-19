@@ -1,0 +1,9 @@
+---------------响应----------------
+500
+Server: nginx/1.9.9
+Date: Tue, 12 Jan 2021 08:58:04 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+
+{"resCode":"999999","resMsg":"系统异常"}

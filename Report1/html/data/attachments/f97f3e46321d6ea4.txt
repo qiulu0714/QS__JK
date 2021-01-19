@@ -1,0 +1,9 @@
+---------------响应----------------
+200
+Server: nginx/1.16.1
+Date: Thu, 17 Dec 2020 07:21:26 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+
+{"resCode":"000000","resMsg":"success","data":{"total":1,"list":[{"id":"313169778288103424","title":"宜浩佳园3号机","categoryId":1,"categoryName":"弹簧机","saleType":2,"classId":"180460117509017600","classTitle":"应急物资型号001","deviceId":1418,"macAddress":"B4:0B:44:B4:54:C5","batchNumber":"2020-11","address":"竹柏路333弄","status":0,"runStatus":1,"runStatusName":"在线","createTime":"2020-12-17 15:21:26","updateTime":"2020-12-17 15:21:26","deleted":0,"deviceTitle":"宜浩佳园3号机","sequence":"13124","goodsTotal":-1,"busySlotCount":0,"freeSlotCount":0,"slotCount":0,"xcount":1,"ycount":2,"zcount":3}],"pageNum":1,"pageSize":10,"size":1,"startRow":1,"endRow":1,"pages":1,"prePage":0,"nextPage":0,"isFirstPage":true,"isLastPage":true,"hasPreviousPage":false,"hasNextPage":false,"navigatePages":8,"navigatepageNums":[1],"navigateFirstPage":1,"navigateLastPage":1}}

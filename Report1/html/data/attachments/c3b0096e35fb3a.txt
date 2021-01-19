@@ -1,0 +1,9 @@
+---------------响应----------------
+200
+Server: nginx/1.16.1
+Date: Thu, 07 Jan 2021 05:59:16 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+
+{"resCode":"000000","resMsg":"success","data":{"total":1,"list":[{"id":"320759242006990848","title":"公司三楼终端(测试)","categoryId":1,"categoryName":"弹簧机","saleType":2,"classId":"180460117509017600","classTitle":"应急物资型号001","deviceId":1422,"macAddress":"6c:21:a2:c8:7a:21","batchNumber":"2020-11","address":"上海千声网络科技有限公司3楼","status":0,"runStatus":1,"runStatusName":"在线","createTime":"2021-01-07 13:59:16","updateTime":"2021-01-07 13:59:16","deleted":0,"deviceTitle":"公司三楼终端(测试)","sequence":"13124","goodsTotal":-1,"busySlotCount":0,"freeSlotCount":0,"slotCount":0,"xcount":1,"ycount":2,"zcount":3}],"pageNum":1,"pageSize":10,"size":1,"startRow":1,"endRow":1,"pages":1,"prePage":0,"nextPage":0,"isFirstPage":true,"isLastPage":true,"hasPreviousPage":false,"hasNextPage":false,"navigatePages":8,"navigatepageNums":[1],"navigateFirstPage":1,"navigateLastPage":1}}

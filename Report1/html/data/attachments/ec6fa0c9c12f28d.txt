@@ -1,0 +1,11 @@
+---------------请求-----------------
+http://192.168.1.109//api/config/console/cms/relation/region/device/template/add
+User-Agent: python-requests/2.24.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+console-token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiLmmbrmsYflrrblm60t54mp5Lia566h55CGIiwiaWQiOiIxIiwiZXhwIjoxNjEwNDg4Njg0LCJpYXQiOjE2MTA0NDE4ODQsInVzZXIiOiJ7XCJpZFwiOjEsXCJ1c2VybmFtZVwiOlwiYWRtaW5cIixcInJlYWxuYW1lXCI6XCJhZG1pblwiLFwic2V4XCI6MSxcInBob25lXCI6XCIxMzgwMDAxMDAwMVwiLFwid2VDaGF0XCI6XCIxMzgwMDAxMDAwMVwiLFwic3RhdHVzXCI6MSxcImltZ1VybFwiOlwiaHR0cHM6Ly92My5jZG4ucWVlc2VuLmNvbS9maWxlLzY4NzM0YTMyOGEzMDRkZjA5MWY2ZGFlMDZkM2VhZmIzLmpwZ1wiLFwiZW50ZUlkXCI6MSxcImRlcHRJZFwiOjIsXCJkZXB0VGl0bGVcIjpcIueuoeeQhuWxglwifSJ9.rrsM4Xs9VT5ZrA-yZ01OI0faRj_vlNfVd3V1rdSZ2_c
+Content-Length: 131
+Content-Type: application/json
+
+b'{"deviceInfos": [{"deviceId": 0, "subRegionId": 3000007, "deviceName": "\\u5b9c\\u6d69\\u4f73\\u56ed3\\u53f7\\u673a"}], "templateId": 19}'

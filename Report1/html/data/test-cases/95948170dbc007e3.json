@@ -1,0 +1,94 @@
+{
+  "uid" : "95948170dbc007e3",
+  "name" : "test_add_device",
+  "fullName" : "TestQS.configure_device.test_configure_device.Test_info#test_add_device",
+  "historyId" : "0a9b8070644b43cd81ed13ff48dd0e8c",
+  "time" : {
+    "start" : 1606379110565,
+    "stop" : 1606379110642,
+    "duration" : 77
+  },
+  "status" : "broken",
+  "statusMessage" : "TypeError: 'NoneType' object is not subscriptable",
+  "statusTrace" : "self = <TestQS.configure_device.test_configure_device.Test_info object at 0x04105C50>\n\n    @allure.severity(\"critical\")\n    @allure.story(\"添加设备\")\n    def test_add_device(self):\n        add_device_resp = request.post_request(url=url1 + '/api/device/console/device/info/add',\n                                          json ={\"enteId\":32,\"deptId\":98,\"address\":\"沈杜公路1000弄\",\n                                                 \"appVersion\":\"3.0\",\"batchCode\":\"2020-11\",\"provinceId\":9,\n                                                 \"cityId\":104,\"countyId\":1134,\"townId\":13787,\n                                                 \"centerId\":1000022,\"communityId\":3000007,\n                                                 \"deviceVersion\":\"1.0\",\"emergencyContactUserId\":351,\n                                                 \"gasNumber\":\"123456\",\"lat\":39.910925,\"lon\":116.413384,\n                                                 \"macCode\":maccode,\"netType\":\"1,2,3\",\"remark\":\"\",\"romVersion\":\"1\",\n                                                 \"title\":title,\"phone\":\"17323926305\",\"time\":\"2020-11-23 00:00:00\",\n                                                 \"villageName\":\"中金海棠湾居委会\"},headers=head)\n    \n        assertions.assert_code(add_device_resp.status_code,200)\n    \n        add_device_resp_json = add_device_resp.json()\n    \n        assertions.assert_in_text(add_device_resp_json['resMsg'],'success')\n    \n        # 通过数据库查询设备id\n        db = pymysql.Connect(\"192.168.1.104\", \"root\", \"NMvf75#_$%c%BcD$F8l$\", \"zhhome_db\")\n    \n        cursor = db.cursor()\n        # 通过mac_code查询设备id\n        cursor_execute_1 = cursor.execute(\"SELECT id FROM `device_info` WHERE mac_code = '4' AND deleted = 0 \")\n    \n        aa = cursor.fetchone()\n        print(aa)\n        # 将设备ID赋予全局变量\n        global deviceid\n>       deviceid = aa[0]\nE       TypeError: 'NoneType' object is not subscriptable\n\nTestQS\\configure_device\\test_configure_device.py:209: TypeError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TypeError: 'NoneType' object is not subscriptable",
+    "statusTrace" : "self = <TestQS.configure_device.test_configure_device.Test_info object at 0x04105C50>\n\n    @allure.severity(\"critical\")\n    @allure.story(\"添加设备\")\n    def test_add_device(self):\n        add_device_resp = request.post_request(url=url1 + '/api/device/console/device/info/add',\n                                          json ={\"enteId\":32,\"deptId\":98,\"address\":\"沈杜公路1000弄\",\n                                                 \"appVersion\":\"3.0\",\"batchCode\":\"2020-11\",\"provinceId\":9,\n                                                 \"cityId\":104,\"countyId\":1134,\"townId\":13787,\n                                                 \"centerId\":1000022,\"communityId\":3000007,\n                                                 \"deviceVersion\":\"1.0\",\"emergencyContactUserId\":351,\n                                                 \"gasNumber\":\"123456\",\"lat\":39.910925,\"lon\":116.413384,\n                                                 \"macCode\":maccode,\"netType\":\"1,2,3\",\"remark\":\"\",\"romVersion\":\"1\",\n                                                 \"title\":title,\"phone\":\"17323926305\",\"time\":\"2020-11-23 00:00:00\",\n                                                 \"villageName\":\"中金海棠湾居委会\"},headers=head)\n    \n        assertions.assert_code(add_device_resp.status_code,200)\n    \n        add_device_resp_json = add_device_resp.json()\n    \n        assertions.assert_in_text(add_device_resp_json['resMsg'],'success')\n    \n        # 通过数据库查询设备id\n        db = pymysql.Connect(\"192.168.1.104\", \"root\", \"NMvf75#_$%c%BcD$F8l$\", \"zhhome_db\")\n    \n        cursor = db.cursor()\n        # 通过mac_code查询设备id\n        cursor_execute_1 = cursor.execute(\"SELECT id FROM `device_info` WHERE mac_code = '4' AND deleted = 0 \")\n    \n        aa = cursor.fetchone()\n        print(aa)\n        # 将设备ID赋予全局变量\n        global deviceid\n>       deviceid = aa[0]\nE       TypeError: 'NoneType' object is not subscriptable\n\nTestQS\\configure_device\\test_configure_device.py:209: TypeError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d4933d0c6d43678",
+      "name" : "请求",
+      "source" : "d4933d0c6d43678.txt",
+      "type" : "text/plain",
+      "size" : 1395
+    }, {
+      "uid" : "6a6d2e8c685a596",
+      "name" : "响应",
+      "source" : "6a6d2e8c685a596.txt",
+      "type" : "text/plain",
+      "size" : 234
+    }, {
+      "uid" : "952db68bef7b7565",
+      "name" : "log",
+      "source" : "952db68bef7b7565.txt",
+      "type" : "text/plain",
+      "size" : 2070
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "获取登录用户信息"
+  }, {
+    "name" : "story",
+    "value" : "添加设备"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestQS.configure_device"
+  }, {
+    "name" : "suite",
+    "value" : "test_configure_device"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_info"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-43Q8N5G"
+  }, {
+    "name" : "thread",
+    "value" : "8172-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestQS.configure_device.test_configure_device"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "95948170dbc007e3.json",
+  "parameterValues" : [ ]
+}

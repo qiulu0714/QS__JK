@@ -1,0 +1,9 @@
+---------------响应----------------
+200
+Server: nginx/1.16.1
+Date: Thu, 07 Jan 2021 05:59:16 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+
+{"resCode":"000000","resMsg":"success","data":{"total":1,"list":[{"id":"274360209156083712","title":"测试模板","classId":"274359542857338880","saleType":3,"machineCount":14,"picUrl":"https://v3.cdn.qeesen.com/file/cbd3fea5b12f4acea901a17266990f72.png","createTime":"2020-09-01 13:06:04","updateTime":"2020-09-01 13:06:04","deleted":0,"status":0,"remarks":"测试","shopVendingMachineClass":{"id":"274359542857338880","title":"测试型号","categoryId":1,"saleType":3,"xcount":1,"ycount":8,"zcount":1}}],"pageNum":1,"pageSize":20,"size":1,"startRow":1,"endRow":1,"pages":1,"prePage":0,"nextPage":0,"isFirstPage":true,"isLastPage":true,"hasPreviousPage":false,"hasNextPage":false,"navigatePages":8,"navigatepageNums":[1],"navigateFirstPage":1,"navigateLastPage":1}}

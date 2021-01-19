@@ -1,0 +1,24 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:230 Starting new HTTP connection (1): guanjia.20783378.com:80
+DEBUG    urllib3.connectionpool:connectionpool.py:442 http://guanjia.20783378.com:80 "POST /api/user/public/pwd/login HTTP/1.1" 200 None
+INFO     root:Log.py:65 [INFO 2021-01-08 16:11:23]----请求用时: 26.585 秒数
+INFO     root:Log.py:65 [INFO 2021-01-08 16:11:23]---------------请求-----------------
+http://guanjia.20783378.com/api/user/public/pwd/login
+User-Agent: python-requests/2.24.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 48
+Content-Type: application/json
+
+b'{"subject": "13800010001", "password": "123456"}'
+INFO     root:Log.py:65 [INFO 2021-01-08 16:11:23]---------------响应----------------
+200
+Server: nginx/1.16.1
+Date: Fri, 08 Jan 2021 08:11:15 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Content-Encoding: gzip
+
+{"resCode":"000000","resMsg":"success","data":{"consoleToken":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiLmmbrmsYflrrblm60t54mp5Lia566h55CGIiwiaWQiOiIyMiIsImV4cCI6MTYxMDE0MDI3NSwiaWF0IjoxNjEwMDkzNDc1LCJ1c2VyIjoie1wiaWRcIjoyMixcInVzZXJuYW1lXCI6XCJhZG1pblwiLFwicmVhbG5hbWVcIjpcIui2hee6p-euoeeQhuWRmFwiLFwic2V4XCI6MSxcInBob25lXCI6XCIxMzgwMDAxMDAwMVwiLFwid2VDaGF0XCI6XCJ3eFwiLFwic3RhdHVzXCI6MSxcImltZ1VybFwiOlwiaHR0cHM6Ly92My5jZG4ucWVlc2VuLmNvbS9maWxlLzY4NzM0YTMyOGEzMDRkZjA5MWY2ZGFlMDZkM2VhZmIzLmpwZ1wiLFwiZW50ZUlkXCI6MzIsXCJkZXB0SWRcIjo5NixcImRlcHRUaXRsZVwiOlwi5beh5qOA6YOo6ZeoXCJ9In0.gJ5UUxUNlTA0DC8egLSOIh16NoPZvZ8nDfQezwWO-7Y","userName":"admin","realName":"超级管理员","id":22}}

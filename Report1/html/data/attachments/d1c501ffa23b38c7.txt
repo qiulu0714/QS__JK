@@ -1,0 +1,23 @@
+connectionpool.py          230 DEBUG    Starting new HTTP connection (1): guanjia.20783378.com:80
+connectionpool.py          442 DEBUG    http://guanjia.20783378.com:80 "GET /api/device/console/device/info/query/CombinationQuery?page=1&size=10&fuzzy=%E5%AE%9C%E6%B5%A9%E4%BD%B3%E5%9B%AD3%E5%8F%B7%E6%9C%BA HTTP/1.1" 200 None
+Log.py                      65 INFO     [INFO 2021-01-12 10:15:52]----请求用时: 36.781 秒数
+Log.py                      65 INFO     [INFO 2021-01-12 10:15:52]---------------请求-----------------
+http://guanjia.20783378.com/api/device/console/device/info/query/CombinationQuery?page=1&size=10&fuzzy=%E5%AE%9C%E6%B5%A9%E4%BD%B3%E5%9B%AD3%E5%8F%B7%E6%9C%BA
+User-Agent: python-requests/2.24.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+console-token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiLmmbrmsYflrrblm60t54mp5Lia566h55CGIiwiaWQiOiIyMiIsImV4cCI6MTYxMDQ2NDU0NSwiaWF0IjoxNjEwNDE3NzQ1LCJ1c2VyIjoie1wiaWRcIjoyMixcInVzZXJuYW1lXCI6XCJhZG1pblwiLFwicmVhbG5hbWVcIjpcIui2hee6p-euoeeQhuWRmFwiLFwic2V4XCI6MSxcInBob25lXCI6XCIxMzgwMDAxMDAwMVwiLFwid2VDaGF0XCI6XCJ3eFwiLFwic3RhdHVzXCI6MSxcImltZ1VybFwiOlwiaHR0cHM6Ly92My5jZG4ucWVlc2VuLmNvbS9maWxlLzY4NzM0YTMyOGEzMDRkZjA5MWY2ZGFlMDZkM2VhZmIzLmpwZ1wiLFwiZW50ZUlkXCI6MzIsXCJkZXB0SWRcIjo5NixcImRlcHRUaXRsZVwiOlwi5beh5qOA6YOo6ZeoXCJ9In0.RrDhr8nPSvbuAaqLBLtS5Fq5eB3bN-sCuZQanE15-x8
+
+None
+Log.py                      65 INFO     [INFO 2021-01-12 10:15:52]---------------响应----------------
+200
+Server: nginx/1.16.1
+Date: Tue, 12 Jan 2021 02:15:45 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Content-Encoding: gzip
+
+{"resCode":"000000","resMsg":"success","data":{"total":1,"list":[{"id":1418,"title":"宜浩佳园3号机","address":"竹柏路111弄","macCode":"C0:84:7D:0E:9A:FE","appVersion":"3.0","phone":"17323926305","realname":"邱露","provinceId":9,"cityId":104,"countyId":1134,"townId":13798,"communityId":3155375,"listReqVos":[{"name":"高清摄像头","status":"0","did":45},{"name":"身份证读卡器","status":"0","did":54},{"name":"迷雾玻璃","status":"0","did":63},{"name":"键盘","status":"0","did":135},{"name":"4*8型储物柜","status":"0","did":32}],"sequence":"12354","deviceVersion":"3.0","romVersion":"3.0","templateModel":"GTX89757","m1":0,"m2":0,"m3":0,"m4":2,"m5":0,"m6":0,"m7":0,"m8":2,"m9":2,"m10":0,"m11":0,"m12":0,"m13":0,"m14":0,"m15":0,"m16":1,"m17":2,"m18":2,"m19":0,"m20":1,"m21":2,"m22":0,"m23":0,"m24":0,"m25":2,"m26":1}],"pageNum":1,"pageSize":10,"size":1,"startRow":1,"endRow":1,"pages":1,"prePage":0,"nextPage":0,"isFirstPage":true,"isLastPage":true,"hasPreviousPage":false,"hasNextPage":false,"navigatePages":8,"navigatepageNums":[1],"navigateFirstPage":1,"navigateLastPage":1}}
